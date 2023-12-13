@@ -33,5 +33,5 @@ print("after", len(en_zh_dict))
 #     for i in newlineinfo:
 #         read_file.write(f'{i}\n')
 # 写入更新后的字典数据到 JSON 文件
-with open('./dictionary.json', 'w', encoding='UTF-8') as out_file:
-    json.dump(new_en_zh_dict, out_file, ensure_ascii=False)
+# with open('./dictionary.json', 'w', encoding='UTF-8') as out_file:
+#     json.dump(new_en_zh_dict, out_file, ensure_ascii=False)
