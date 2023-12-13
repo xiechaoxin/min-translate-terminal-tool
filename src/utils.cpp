@@ -4,6 +4,8 @@
 #include <cctype>
 #include <algorithm>
 #include <vector>
+#include "log.h"
+#include "config.h"
 
 bool utils::is_ascii(const std::string &word) {
 	for (const auto &item : word) {
@@ -23,9 +25,15 @@ std::string utils::to_lowers(std::string &word) {
 }
 
 void utils::printDictionary(const std::string &key) {
+	std::string en = dictionary.at(key).en;
+	std::string zh = dictionary.at(key).zh;
+
 	printf("%s\t%s\n",
-		   dictionary.at(key).en.c_str(),
-		   dictionary.at(key).zh.c_str());
+		   en.c_str(),
+		   zh.c_str());
+
+	Logger logger(LOG_PATH);
+	logger.info(en, zh);
 
 }
 
@@ -35,10 +43,17 @@ void utils::printDictionary(std::vector<std::string> vec) {
 		max_length = std::max(max_length, static_cast<int>(item.length()));
 	}
 	for (const auto &item : vec) {
+		std::string en = dictionary.at(item).en;
+		std::string zh = dictionary.at(item).zh;
+
 		printf("%-*s\t%s\n",
 			   max_length,
-			   dictionary.at(item).en.c_str(),
-			   dictionary.at(item).zh.c_str());
+			   en.c_str(),
+			   zh.c_str());
+
+		Logger logger(LOG_PATH);
+		logger.info(en, zh);
+
 	}
 	printf("-------------------------------------------------------------\n");
 }

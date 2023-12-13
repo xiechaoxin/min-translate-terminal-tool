@@ -3,8 +3,10 @@
 #include "dictionary.h"
 #include "search.h"
 #include "config.h"
+#include "log.h"
 
-int main() {
+
+void process() {
 	std::string input;
 
 	Trie *trie = init_db();
@@ -38,5 +40,9 @@ int main() {
 	}
 
 	std::cout << "输入结束。" << std::endl;
+}
+
+int main() {
+	process();
 	return 0;
 }

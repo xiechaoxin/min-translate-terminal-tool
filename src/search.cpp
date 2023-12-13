@@ -1,6 +1,7 @@
 #include "search.h"
 #include "trie_tree.h"
 #include "config.h"
+#include "log.h"
 
 #define INSERT_COST 1
 #define CHANGE_COST 2
@@ -50,6 +51,8 @@ void processInput(Trie *trie, std::string &word) {
 		std::vector<std::string> res = trie->fuzzySearch(key);
 		if (res.empty()) {
 			std::cout << "字典中未找到单词 " << key << std::endl;
+			Logger logger(LOG_PATH);
+			logger.error(key, "字典中未找到单词");
 			return;
 		}
 		utils::printDictionary(res);
@@ -76,6 +79,8 @@ void processInput(Trie *trie, std::vector<std::string> &words) {
 			bool exist = trie->search(key);
 			if (!exist) {
 				std::cout << key << "\t字典中未找到单词 " << std::endl;
+				Logger logger(LOG_PATH);
+				logger.error(key, "字典中未找到单词");
 				continue;
 			}
 			utils::printDictionary(word);
