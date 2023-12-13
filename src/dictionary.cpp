@@ -1,44 +1,47 @@
 #include "dictionary.h"
+#include "trie_tree.h"
+#include "utils.h"
+#include "config.h"
 
-std::unordered_map<std::string, std::string> dictionary;
-void init_db() {
+std::unordered_map<std::string, en_zh> dictionary;
+
+Trie *init_db() {
 	std::string line;
-	std::ifstream file("../dictionary.txt");  // 假设字典文件名为 dictionary.txt
+	std::ifstream file(DB_PATH);
 
 	if (!file.is_open()) {
 		std::cerr << "无法打开文件" << std::endl;
-		return;
+		return nullptr;
 	}
 
+	Trie *trie = new Trie();
+
 	while (std::getline(file, line)) {
-		std::stringstream linestream(line);
-		std::string englishWord, chineseMeaning;
+		std::stringstream lineStream(line);
+		std::string enWord, chWord;
 
 		// 读取英文单词和中文解释
-		std::getline(linestream, englishWord, '\t');
-		std::getline(linestream, chineseMeaning);
+		std::getline(lineStream, enWord, '\t');
+		std::getline(lineStream, chWord);
 
-		// 将它们插入到字典中
-		dictionary[englishWord] = chineseMeaning;
+		std::string en_key = utils::removePunctuation(enWord);
+		if (CASE_SENSITIVE) {
+			// 将它们插入到字典中
+			dictionary[en_key] = en_zh(enWord, chWord);
+			trie->insert(en_key);
+		} else {
+			std::string en_key_lower = utils::to_lowers(en_key);
+			// 将它们插入到字典中
+			dictionary[en_key_lower] = en_zh(enWord, chWord);
+			trie->insert(en_key_lower);
+		}
 	}
 	file.close();
 
-	// 测试：打印字典内容
-	for (const auto &pair : dictionary) {
-		if (is_ascii(pair.first)) {
-			std::cout << "【ASCII】";
-			std::cout << pair.first << std::endl;
-		} else {
-			std::cout << "【非ASCII】";
-			std::cout << pair.first << std::endl;
-		}
+	return trie;
 
-		if (is_ascii(pair.second)) {
-			std::cout << "【ASCII】";
-			std::cout << pair.second << std::endl;
-		} else {
-			std::cout << "【非ASCII】";
-			std::cout << pair.second << std::endl;
-		}
-	}
+	// 测试：打印字典内容
+	// for (const auto &pair : dictionary) {
+	// 	std::cout << pair.first << " 对应的中文是: " << pair.second << std::endl;
+	// }
 }

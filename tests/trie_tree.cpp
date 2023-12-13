@@ -104,8 +104,11 @@ int minDistance(const std::string &word1, const std::string &word2) {
 			if (word1[i - 1] == word2[j - 1]) {
 				dp[j] = pre;
 			} else {
-				dp[j] = std::min({pre + CHANGE_COST, dp[j - 1] + INSERT_COST,
-								  temp + DELETE_COST});
+				dp[j] = std::min({
+					pre + CHANGE_COST,
+					dp[j - 1] + INSERT_COST,
+					temp + DELETE_COST
+				});
 			}
 			pre = temp;
 		}
@@ -118,8 +121,7 @@ const int ASCII_SIZE = 128;
 
 struct TrieNode {
 	bool isEnd;	 // 当前节点是否为一个单词的结尾
-	std::vector<TrieNode *>
-		children;  // 子节点指针数组, 用于存储所有可能的后继字符节点
+	std::vector<TrieNode *> children;  // 子节点指针数组, 用于存储所有可能的后继字符节点
 
 	// 构造函数, 初始化 TrieNode
 	TrieNode() : isEnd(false), children(ASCII_SIZE, nullptr) {}

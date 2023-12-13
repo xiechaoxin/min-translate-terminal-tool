@@ -8,11 +8,19 @@
 #include <mutex>
 #include <sstream>
 #include "utils.h"
+#include "trie_tree.h"
 #include <string>
 #include <iostream>
 
-extern std::unordered_map<std::string, std::string> dictionary;
+struct en_zh {
+	std::string en;
+	std::string zh;
+	en_zh() = default;
+	en_zh(std::string en, std::string zh) : en(en), zh(zh) {}
+};
 
-void init_db();
+extern std::unordered_map<std::string, en_zh> dictionary;
+
+Trie* init_db();
 
 #endif /* _DICTIONARY_H_ */

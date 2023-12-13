@@ -1,9 +1,15 @@
 #include "search.h"
+#include "trie_tree.h"
+#include "config.h"
 
 #define INSERT_COST 1
-#define CHANGE_COST 1
-#define DELETE_COST 1
+#define CHANGE_COST 2
+#define DELETE_COST 4
 
+/// @brief 返回编辑成本
+/// @param word1
+/// @param word2
+/// @return
 int minDistance(const std::string &word1, const std::string &word2) {
 	int len1 = word1.size();
 	int len2 = word2.size();
@@ -22,44 +28,65 @@ int minDistance(const std::string &word1, const std::string &word2) {
 			if (word1[i - 1] == word2[j - 1]) {
 				dp[j] = pre;
 			} else {
-				dp[j] = std::min({
-					pre + CHANGE_COST,
-					dp[j - 1] + INSERT_COST,
-					temp + DELETE_COST
-				});
+				dp[j] = std::min({pre + CHANGE_COST, dp[j - 1] + INSERT_COST,
+								  temp + DELETE_COST});
 			}
 			pre = temp;
 		}
 	}
 	return dp[len2];
 }
+// void processInput(Trie *trie, std::string &input) {}
+int fuzzyLimitCost = 2;	 // edit / delete / change cost = 1
 
-void processInput(const std::string &input) {
-	if (is_ascii(input)) {
-		// 查找字典中的英文单词
-		if (dictionary.find(input) != dictionary.end()) {
-			std::cout << input << " 对应的中文是: " << dictionary[input]
-					  << std::endl;
+void processInput(Trie *trie, std::string &word) {
+	std::string key;
+	if (utils::is_ascii(key)) {	 // 查找字典中的英文单词
+		if (CASE_SENSITIVE) {
+			key = word;
 		} else {
-			std::cout << "字典中未找到单词 " << input << std::endl;
+			key = utils::to_lowers(word);
 		}
-	} else {
-		// 查找字典中的中文解释
-		bool found = false;
-		for (const auto &pair : dictionary) {
-			if (pair.second == input) {
-				std::cout << pair.first << " 对应的中文是: " << pair.second
-						  << std::endl;
-				found = true;
-				break;
-			}
+		std::vector<std::string> res = trie->fuzzySearch(key);
+		if (res.empty()) {
+			std::cout << "字典中未找到单词 " << key << std::endl;
+			return;
 		}
-		if (!found) {
-			std::cout << "字典中未找到中文解释 " << input << std::endl;
+		utils::printDictionary(res);
+	} else {  // 查找字典中的中文解释to_lower
+		/* TODO<2023-12-14, @xcx> 中文逻辑比较难，trieTree不好实现，是否可以用其他数据结构？UTF8存储是个问题 */
+		std::vector<std::string> res = trie->fuzzySearch(key);
+		if (res.empty()) {
+			std::cout << "字典中未找到中文解释 " << key << std::endl;
+			return;
 		}
+		utils::printDictionary(res);
 	}
 }
 
-std::vector<std::string> fuzzySearch(const std::string &input) {
-	return {"hello", "world"};
+void processInput(Trie *trie, std::vector<std::string> &words) {
+	for (auto &word : words) {
+		std::string key;
+		if (utils::is_ascii(key)) {	 // 查找字典中的英文单词
+			if (CASE_SENSITIVE) {
+				key = word;
+			} else {
+				key = utils::to_lowers(word);
+			}
+			bool exist = trie->search(key);
+			if (!exist) {
+				std::cout << key << "\t字典中未找到单词 " << std::endl;
+				continue;
+			}
+			utils::printDictionary(word);
+		} else {  // 查找字典中的中文解释to_lower
+			/* TODO<2023-12-14, @xcx> 中文逻辑比较难，trieTree不好实现，是否可以用其他数据结构？UTF8存储是个问题 */
+			std::vector<std::string> res = trie->fuzzySearch(key);
+			if (res.empty()) {
+				std::cout << "字典中未找到中文解释 " << key << std::endl;
+				return;
+			}
+			utils::printDictionary(res);
+		}
+	}
 }

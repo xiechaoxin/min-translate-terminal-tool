@@ -1,3 +1,4 @@
+import csv
 from curses.ascii import isascii
 import os
 import openpyxl
@@ -27,6 +28,19 @@ def read_org_src_dict()->dict:
 
     return en_zh_dict
 
+def get_db_from_csv(file_path)->dict:
+    # 创建一个空字典来存储数据
+    data_dict = {}
+
+    # 打开CSV文件并读取
+    with open(file_path, mode='r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if len(row) >= 2:  # 确保行中至少有两个元素
+                key = row[0].replace('\n', '')   # 第一列的值作为键
+                value = row[1].replace('\n', '') # 第二列的值作为值
+                data_dict[key] = value
+    return data_dict
 
 def get_db_from_excel(file_path)->dict:
     # 定义一个空字典来存储A和B列的数据
@@ -53,6 +67,7 @@ def fillter(src_dict:dict, new_dict: dict) -> dict:
         if not str(en).isascii() or str(zh).isascii(): continue
         if en is None or zh is None: continue
         if zh  == '无': continue
+        if zh  == '找不到解释': continue
 
         if en in src_dict:
             if len(zh)>len(src_dict[en]):
@@ -74,14 +89,17 @@ def fillter(src_dict:dict, new_dict: dict) -> dict:
 new_en = 0
 update_zh = 0
 
-folder_path = '/Users/xcx/Downloads/墨墨词库上千本词书大全/打包下载/精装 2/中文释义'
-file_extension = '.xlsx'
+# folder_path = '/Users/xcx/Downloads/墨墨词库上千本词书大全/打包下载/精装 2/中文释义'
+folder_path = '/Users/xcx/Downloads/墨墨词库上千本词书大全/打包下载/更多/csv-220301'
+# file_extension = '.xlsx'
+file_extension = '.csv'
 xlsx_path_list=match_files_recursion(folder_path, file_extension)
 
 en_zh_dict = read_org_src_dict()
 print("before enzhdict", len(en_zh_dict))
 for item in xlsx_path_list:
-    en_zh_dict_new = get_db_from_excel(item)
+    # en_zh_dict_new = get_db_from_excel(item)
+    en_zh_dict_new = get_db_from_csv(item)
     en_zh_dict = fillter(en_zh_dict, en_zh_dict_new)
 
     print(f'new_en {new_en}')

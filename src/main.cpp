@@ -1,21 +1,13 @@
 #include <iostream>
 #include <string>
-#include <thread>
-#include <vector>
-#include <unordered_map>
-#include <fstream>
-#include <mutex>
-#include <sstream>
-#include "utils.h"
 #include "dictionary.h"
 #include "search.h"
-
+#include "config.h"
 
 int main() {
 	std::string input;
-	std::thread processingThread;  // 使用单个线程而非线程数组
 
-	init_db();
+	Trie *trie = init_db();
 
 	while (true) {
 		std::cout << "请输入文本（回车结束输入, 如果输入为空, 程序结束, "
@@ -24,22 +16,27 @@ int main() {
 		if (input.empty()) {
 			break;
 		}
+		if (input.size() > MAX_WORD_LENGTH) {
+			std::cout << "单词长度超过" << MAX_WORD_LENGTH << ", 请重新输入"
+					  << std::endl;
+			continue;
+		}
+		std::istringstream iss(input);
+		std::vector<std::string> words;
+		std::string word;
 
-		// 等待之前的线程完成
-		if (processingThread.joinable()) {
-			processingThread.join();
+		// 使用空格分割字符串
+		while (iss >> word) {
+			words.push_back(word);
+		}
+		if (words.size() == 1) {
+			processInput(trie, input);
+		} else {
+			processInput(trie, words);
 		}
 
-		// 启动一个新线程来处理当前的输入
-		processingThread = std::thread(processInput, input);
-	}
-
-	// 确保最后一个线程也完成了
-	if (processingThread.joinable()) {
-		processingThread.join();
 	}
 
 	std::cout << "输入结束。" << std::endl;
-
 	return 0;
 }
