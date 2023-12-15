@@ -1,0 +1,51 @@
+---
+Language: Cpp
+
+# 基于的编码规范, 可选:
+# - LLVM: https://llvm.org/docs/CodingStandards.html
+# - Google: https://google.github.io/styleguide/cppguide.html
+# - Chromium: https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md
+# - Mozilla: https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html
+# - WebKit: https://www.webkit.org/coding/coding-style.html
+# - Microsoft: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+# - GNU: https://www.gnu.org/prep/standards/standards.html
+# - InheritParentConfig: 继承父目录的编码规范, 如果有的话, 不是一个真正的编码规范
+# - None: 不使用, 即自动配置, 也就是本文件中的自定义内容
+BasedOnStyle: Google
+
+# 访问说明符(public、private等)的偏移
+AccessModifierOffset: -4
+UseTab: Always
+TabWidth: 4
+IndentWidth: 4
+
+# 是否将简单的if(else/else if)语句中的body跟if(else/else if)放置于同一行，可选值
+# - Never: 永远不, 建议值
+# - WithoutElse: 没有else/else if时, 允许
+# - OnlyFirstIf: 只有第一个if允许
+# - AllIfAndElse: 所有的if/else都允许
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# 是否开启文件分析, 根据文件中的*/&使用情况更新clang-format设定, 在无法决定时, 使用PointerAlignment代替, 不建议开启
+DerivePointerAlignment: false
+DisableFormat: false
+
+# 指针对齐, 建议Right
+PointerAlignment: Right
+
+# 引用对齐, 可选:
+# - Pointer: 使用'PointerAlignment'配置, 建议使用
+# - Left: Left
+# - Right: Right
+ReferenceAlignment: Pointer
+
+# 是否允许clang-format尝试重新粘合注释(true/false), 不建议使用
+ReflowComments: false
+
+# 是否允许短的函数放在一行
+AllowShortFunctionsOnASingleLine: Empty
+
+# 禁用头文件排序功能
+SortIncludes: false

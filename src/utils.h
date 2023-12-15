@@ -21,6 +21,6 @@ template <typename T>
 void printVector(const std::vector<T> &vec);
 
 void printDictionary(const std::string& key);
-void printDictionary(std::vector<std::string> vector1);
+void printDictionary(std::vector<std::string> keys);
 }  // namespace utils
 #endif /* _UTILS_H_ */

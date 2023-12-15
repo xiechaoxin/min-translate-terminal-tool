@@ -9,3 +9,10 @@ aux_source_directory(src/ SRC_FILES)
 
 #构建可执行文件
 add_executable(TranslateApp ${SRC_FILES})
+
+
+add_executable(myu8 tests/utf8/myu8.cpp)
+
+add_executable(u8txt tests/utf8/u8txt.cpp)
+target_include_directories(u8txt PRIVATE include)
+
