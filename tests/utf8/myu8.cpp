@@ -28,17 +28,31 @@ void process(std::ostringstream &oss, const std::string &fmt, size_t &pos) {
 
 // 递归解包参数并替换占位符
 template <typename T, typename... Args>
-void process(std::ostringstream &oss, const std::string &fmt, size_t &pos,
-			 const T &value, Args... args) {
-	size_t start = fmt.find("{}", pos);
-	if (start == std::string::npos) {
-		oss << fmt.substr(pos);
-		return;
+void process(std::ostringstream& oss, const std::string& fmt, size_t& pos, const T& value, Args... args) {
+	while (pos < fmt.length()) {
+		size_t start = fmt.find('{', pos);
+		if (start == std::string::npos) {
+			oss << fmt.substr(pos);
+			return;
+		}
+		if (start > pos && fmt[start - 1] == '\\') {
+			// Handle escaped brace
+			oss << fmt.substr(pos, start - pos - 1); // Include text before '{'
+			oss << "{"; // Include '{' as a regular character
+			pos = start + 2; // Skip over the '{' character
+			continue;
+		}
+		oss << fmt.substr(pos, start - pos);
+		if (start + 1 < fmt.length() && fmt[start + 1] == '}') {
+			oss << toString(value);
+			pos = start + 2; // Move past "{}"
+			process(oss, fmt, pos, args...);
+			return;
+		}
+		pos = start + 1; // Move past "{"
 	}
-	oss << fmt.substr(pos, start - pos) << toString(value);
-	pos = start + 2;  // 跳过 "{}"
-	process(oss, fmt, pos, args...);
 }
+
 
 // 主格式化函数
 template <typename... Args>
@@ -431,11 +445,13 @@ int main() {
 	std::string result = format(a, "---lalal中文", b);
 	std::cout << result << std::endl;  // 输出 "10---lalal中文hell中"
 
+	std::cout << "---------------------" << std::endl;
 	{
 		int a = 10;
 		std::string str = "world";
 
-		std::string result = fmt::format("a:{},{} str:{}, djshi中文", a, str);
+		std::string result =
+			fmt::format("a:{},\\{\\} str:{}, djshi中文", a, str);
 		std::cout << result << std::endl;
 	}
 
