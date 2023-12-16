@@ -85,7 +85,6 @@ public:
 	Utf8String(Args &&...args)
 		: Utf8String(std::string(std::forward<Args>(args)...)) {}
 
-
 	// 添加 find 方法
 	int find(const std::string &subs) const {
 		size_t bytePos = str.find(subs);
@@ -104,21 +103,22 @@ public:
 	}
 
 	// 添加 substr 方法
-	Utf8String substr(size_t charPos = 0, size_t charLen = std::string::npos) const {
+	Utf8String substr(size_t charPos = 0,
+					  size_t charLen = std::string::npos) const {
 		size_t byteStart = getBytePosition(charPos);
 		if (byteStart == std::string::npos) {
-			return Utf8String(""); // 超出范围
+			return Utf8String("");	// 超出范围
 		}
 
-		size_t byteEnd = charLen == std::string::npos ?
-													  std::string::npos :
-													  getBytePosition(charPos + charLen, byteStart);
+		size_t byteEnd = (charLen == std::string::npos)
+							 ? std::string::npos
+							 : getBytePosition(charPos + charLen, byteStart);
 
-		if (byteEnd == std::string::npos) { // 截取到字符串末尾
-			return Utf8String(str.substr(byteStart));
-		} else {
-			return Utf8String(str.substr(byteStart, byteEnd - byteStart));
+		if (byteEnd == std::string::npos) {
+			byteEnd = str.length();	 // 如果超出范围，截取到字符串末尾
 		}
+
+		return Utf8String(str.substr(byteStart, byteEnd - byteStart));
 	}
 
 	// 主格式化函数（静态）
@@ -307,21 +307,20 @@ private:
 	std::vector<size_t> utf8CharIndices;  // 记录每个u8字符的起始位置
 
 private:
-
 	/// 作用是根据 UTF-8 字符的位置（即字符索引）来找到相应的字节位置。这一点对于正确处理 UTF-8 编码的字符串非常重要，因为 UTF-8 编码的字符可能由不同数量的字节组成。这个函数允许您基于字符的索引而不是字节的索引来操作字符串。
 	/// \param charPos 指定的 UTF-8 字符位置（字符索引）
 	/// \param startPos 字节字符串中的起始搜索位置，默认值为 0。这允许函数从字符串的任意位置开始计数。
 	/// \return
 	size_t getBytePosition(size_t charPos, size_t startPos = 0) const {
-		size_t byteCount = startPos; // 用于追踪当前检查到的字节位置。
-		size_t charCount = 0; // 用于追踪遇到的 UTF-8 字符的数量。
+		size_t byteCount = startPos;
+		size_t charCount = 0;
 		while (byteCount < str.size() && charCount < charPos) {
-			if (isUtf8StartByte(str[byteCount])) { // 检查是否为 UTF-8 字符的起始字节
+			if (isUtf8StartByte(str[byteCount])) {
 				++charCount;
 			}
 			++byteCount;
 		}
-		return charCount == charPos ? byteCount : std::string::npos;
+		return (charCount == charPos) ? byteCount : std::string::npos;
 	}
 
 	// 辅助函数，用于获取第 n 个 UTF-8 字符
