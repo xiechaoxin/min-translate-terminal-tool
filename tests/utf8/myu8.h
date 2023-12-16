@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 #include <sstream>
 #include <stdexcept>
 #include <iterator>
@@ -30,8 +31,7 @@ private:
 	}
 
 	// 递归终止函数
-	static void process(std::ostringstream &oss, const std::string &fmt,
-						size_t &pos) {
+	static void process(std::ostringstream &oss, const std::string &fmt, size_t &pos) {
 		if (pos < fmt.length()) {
 			oss << fmt.substr(pos);
 		}
@@ -39,8 +39,7 @@ private:
 
 	// 递归解包参数并替换占位符
 	template <typename T, typename... Args>
-	static void process(std::ostringstream &oss, const std::string &fmt,
-						size_t &pos, const T &value, Args... args) {
+	static void process(std::ostringstream &oss, const std::string &fmt, size_t &pos, const T &value, Args... args) {
 		while (pos < fmt.length()) {
 			size_t start = fmt.find('{', pos);
 			if (start == std::string::npos) {
@@ -82,10 +81,10 @@ public:
 
 	// 允许任何可以转换为 std::string 的类型作为构造参数
 	template <typename... Args>
-	Utf8String(Args &&...args)
-		: Utf8String(std::string(std::forward<Args>(args)...)) {}
+	Utf8String(Args &&...args) : Utf8String(std::string(std::forward<Args>(args)...)) {}
 
 	// 添加 find 方法
+	// 返回子串在原字符串中的u8字符索引
 	int find(const std::string &subs) const {
 		size_t bytePos = str.find(subs);
 		if (bytePos == std::string::npos) {
@@ -103,19 +102,18 @@ public:
 	}
 
 	// 添加 substr 方法
-	Utf8String substr(size_t charPos = 0,
-					  size_t charLen = std::string::npos) const {
-		size_t byteStart = getBytePosition(charPos);
-		if (byteStart == std::string::npos) {
+	Utf8String substr(size_t charPos = 0, size_t charLen = std::string::npos) const {
+		if (charPos >= utf8CharIndices.size()) {
 			return Utf8String("");	// 超出范围
 		}
 
-		size_t byteEnd = (charLen == std::string::npos)
-							 ? std::string::npos
-							 : getBytePosition(charPos + charLen, byteStart);
+		size_t byteStart = utf8CharIndices[charPos];
+		size_t byteEnd;
 
-		if (byteEnd == std::string::npos) {
-			byteEnd = str.length();	 // 如果超出范围，截取到字符串末尾
+		if (charLen == std::string::npos || charPos + charLen >= utf8CharIndices.size()) {
+			byteEnd = str.length();	 // 截取到字符串末尾
+		} else {
+			byteEnd = utf8CharIndices[charPos + charLen];
 		}
 
 		return Utf8String(str.substr(byteStart, byteEnd - byteStart));
@@ -174,33 +172,6 @@ TODO<2023-12-16, @xcx>
 	 * 是否采用惰性更新(等调用到下次使用str再更新索引? )
 	 * */
 
-	/* TODO<2023-12-16, @xcx>
-	 * erase()
-	 * erase(pos, n);      //删除从pos开始的n个字符,比如erase(0, 1)就是删除第一个字符
-	 * erase(position);    //删除从position处的一个字符(position是个string类型的迭代器)
-	 * erase(first, last); //删除从first到last之间的字符(first和last都是迭代器)
-	 * 同样更新索引不好搞
-	 * */
-
-	/* TODO<2023-12-16, @xcx>
-	 * substr()
-	 * string substr(size_t pos = 0, size_t len = npos) const;
-	 * */
-
-	// 添加字符串
-	Utf8String &append(char ch) {
-		str += ch;
-		buildIndices();
-		return *this;
-	}
-
-	// 添加字符串
-	Utf8String &append(const std::string &s) {
-		str.append(s);
-		buildIndices();	 // 重新构建索引
-		return *this;
-	}
-
 	Utf8String &operator+(const char ch) {
 		str += ch;
 		buildIndices();
@@ -237,8 +208,7 @@ TODO<2023-12-16, @xcx>
 	}
 
 	// cout << utf8str;
-	friend std::ostream &operator<<(std::ostream &os,
-									const Utf8String &utf8str) {
+	friend std::ostream &operator<<(std::ostream &os, const Utf8String &utf8str) {
 		os << utf8str.str;
 		return os;
 	}
@@ -260,11 +230,25 @@ TODO<2023-12-16, @xcx>
 	}
 
 	// 类实现迭代器。这样的实现会让你能够遍历每个 UTF-8 编码的字符，就像遍历一个常规的字符数组一样。
-	class iterator
-		: public std::iterator<std::input_iterator_tag, std::string> {
+	class iterator : public std::iterator<std::input_iterator_tag, std::string> {
 	public:
-		iterator(const Utf8String *u8str, size_t pos)
-			: u8str(u8str), pos(pos) {}
+		iterator(Utf8String *u8str, size_t pos) : u8str(u8str), pos(pos) {}
+
+		// 获取底层 std::string 的迭代器
+		std::string::iterator getBaseIterator() const {
+			size_t bytePos = u8str->getBytePosition(pos);
+			return u8str->str.begin() + bytePos;
+		}
+
+		// 重载运算符以支持与整数的加法
+		iterator operator+(int n) const {
+			return iterator(u8str, pos + n);
+		}
+
+		// 重载运算符以支持与整数的减法
+		iterator operator-(int n) const {
+			return iterator(u8str, pos - n);
+		}
 
 		iterator &operator++() {
 			++pos;
@@ -274,6 +258,23 @@ TODO<2023-12-16, @xcx>
 		iterator operator++(int) {
 			iterator tmp = *this;
 			++(*this);
+			return tmp;
+		}
+
+		// 前缀递减运算符
+		iterator &operator--() {
+			if (pos > 0) {
+				--pos;
+			}
+			return *this;
+		}
+
+		// 后缀递减运算符
+		iterator operator--(int) {
+			iterator tmp = *this;
+			if (pos > 0) {
+				--pos;
+			}
 			return tmp;
 		}
 
@@ -289,17 +290,72 @@ TODO<2023-12-16, @xcx>
 			return (*u8str)[pos];
 		}
 
+		// 获取当前迭代器的字符位置
+		size_t getCharPosition() {
+			return pos;	 // 返回迭代器当前的u8字符位置
+		}
+
 	private:
-		const Utf8String *u8str;
-		size_t pos;
+		Utf8String *u8str;
+		size_t pos;  // 当前迭代器的u8字符位置
 	};
 
-	iterator begin() const {
+	iterator begin() {
 		return iterator(this, 0);
 	}
 
-	iterator end() const {
+	iterator end() {
 		return iterator(this, size());
+	}
+	// 删除从 pos 开始的 n 个字符
+	void erase(size_t pos, size_t n = std::string::npos) {
+		if (pos >= utf8CharIndices.size())
+			return;
+
+		size_t byteStart = utf8CharIndices[pos];
+		size_t byteEnd =
+			(n == std::string::npos || pos + n >= utf8CharIndices.size()) ? str.length() : utf8CharIndices[pos + n];
+
+		str.erase(byteStart, byteEnd - byteStart);
+		buildIndices();
+	}
+
+	// 删除从 position 处的一个字符
+	void erase(std::string::iterator position) {
+		size_t pos = std::distance(str.begin(), position);
+		erase(getCharPosition(pos), 1);
+	}
+
+	// 删除从 first 到 last 之间的字符
+	void erase(std::string::iterator first, std::string::iterator last) {
+		size_t startPos = std::distance(str.begin(), first);
+		size_t endPos = std::distance(str.begin(), last);
+		size_t startCharPos = getCharPosition(startPos);
+		size_t endCharPos = getCharPosition(endPos);
+		erase(startCharPos, endCharPos - startCharPos);
+	}
+
+	// 使用 Utf8String::iterator 的 erase 方法重载
+	void erase(Utf8String::iterator position) {
+		erase(position.getCharPosition(), 1);
+	}
+
+	void erase(Utf8String::iterator first, Utf8String::iterator last) {
+		erase(first.getCharPosition(), last.getCharPosition() - first.getCharPosition());
+	}
+
+	// 添加字符串
+	Utf8String &append(char ch) {
+		str += ch;
+		buildIndices();
+		return *this;
+	}
+
+	// 添加字符串
+	Utf8String &append(const std::string &s) {
+		str.append(s);
+		buildIndices();	 // 重新构建索引
+		return *this;
 	}
 
 private:
@@ -310,27 +366,40 @@ private:
 	/// 作用是根据 UTF-8 字符的位置（即字符索引）来找到相应的字节位置。这一点对于正确处理 UTF-8 编码的字符串非常重要，因为 UTF-8 编码的字符可能由不同数量的字节组成。这个函数允许您基于字符的索引而不是字节的索引来操作字符串。
 	/// \param charPos 指定的 UTF-8 字符位置（字符索引）
 	/// \param startPos 字节字符串中的起始搜索位置，默认值为 0。这允许函数从字符串的任意位置开始计数。
-	/// \return
+	/// \return 指定位置的字节位置（字节开始的索引）
+	/// e.g. getBytePosition(0) == 0
 	size_t getBytePosition(size_t charPos, size_t startPos = 0) const {
 		size_t byteCount = startPos;
 		size_t charCount = 0;
-		while (byteCount < str.size() && charCount < charPos) {
+		while (byteCount < str.size()) {
 			if (isUtf8StartByte(str[byteCount])) {
+				if (charCount == charPos) {
+					return byteCount;
+				}
 				++charCount;
 			}
 			++byteCount;
 		}
-		return (charCount == charPos) ? byteCount : std::string::npos;
+		return str.size();	// 如果找不到，返回字符串的总长度
 	}
 
 	// 辅助函数，用于获取第 n 个 UTF-8 字符
 	// warning: 可能不适用于所有 UTF-8 编码的复杂性(例如，它不处理 Unicode 的合成字符)
+	// e.g. getUtf8Char(0) == "中"
 	std::string getUtf8Char(size_t n) const {
 		size_t start = utf8CharIndices[n];
-		size_t len = (n + 1 < utf8CharIndices.size())
-						 ? utf8CharIndices[n + 1] - start
-						 : str.size() - start;
+		size_t len = (n + 1 < utf8CharIndices.size()) ? utf8CharIndices[n + 1] - start : str.size() - start;
 		return str.substr(start, len);
+	}
+
+	// 将string字节位置转换为utf8string字符位置(offset)
+	// e.g. getCharPosition(0) == 0
+	size_t getCharPosition(size_t bytePos) const {
+		auto it = std::lower_bound(utf8CharIndices.begin(), utf8CharIndices.end(), bytePos);
+		if (it != utf8CharIndices.end()) {
+			return std::distance(utf8CharIndices.begin(), it);
+		}
+		return utf8CharIndices.size();
 	}
 
 	// 构建 UTF-8 字符的索引

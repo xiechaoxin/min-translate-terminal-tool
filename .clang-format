@@ -49,3 +49,6 @@ AllowShortFunctionsOnASingleLine: Empty
 
 # 禁用头文件排序功能
 SortIncludes: false
+
+
+ColumnLimit: 120

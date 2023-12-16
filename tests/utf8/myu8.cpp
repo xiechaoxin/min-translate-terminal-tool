@@ -141,12 +141,25 @@ int main() {
 		//
 		// Utf8String s("abcdefg中文测试");
 
-		Utf8String utf8str("abcdefg中文测试");
+		Utf8String utf8str("abcdefga中文a测试");
 		Utf8String subStr = utf8str.substr(7, 2);
 		std::cout << "SubString: " << subStr << std::endl;  // 输出子字符串的内容
 		std::cout << "SubString: " << subStr.size() << std::endl;  // 输出子字符串的内容
+		std::cout << "----------------------------------------------------------------------" << std::endl;
+		Utf8String utf8str2("abcdefg中文测试");
+		auto it = utf8str2.begin() + 7; // 定位到 "中"
+		utf8str2.erase(it); // 删除 "中"
+		std::cout << utf8str2 << std::endl; // 应该输出 "abcdefg文测试"
+
+		std::cout << "----------------------------------------------------------------------" << std::endl;
+		Utf8String utf8str3("abcdefg中文测试");
+		utf8str3.erase(utf8str3.begin() + 7, utf8str3.begin() + 9); // 删除 "中文"
+		std::cout << utf8str3 << std::endl; // 应该输出 "abcdefg测试"
+		string ssss;
+		// ssss.find();
 
 	}
+
 
 
 	return 0;
