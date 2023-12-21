@@ -11,7 +11,7 @@
 
 # 关键数据结构
 
-# 字典文件格式
+## 字典文件格式
 
 ```txt
 {en}\t{zh}
@@ -23,13 +23,17 @@
 
 ### en->zh
 
-en_key: 去除了标点, if not case sensitive, is lower case; trie-tree: use en_key as node; map<en_key:str, struct{en_src:str,
-zh_src:str}> dictory;
+en_key: 去除了标点, 可以设置大小写敏感 config.h::CASE_SENSITIVE;
+
+trie-tree: use en_key as node;
+
+u_map<en_key:str, struct{en_src:str, zh_src:str}> dictionary;
 
 ### zh->en
 
-zh_key: 去除了标点; 中文分词时候，少于一个字，我直接删除了，所以如果搜索中文(一个字)会查无结果, 这是故意地，不是bug u_map<en_key:str, vec<struct{en_key:str, weight:int>>
-InvertedIndex;
+zh_key: 去除了标点; 中文分词时候，少于一个字，我直接删除了，所以如果搜索中文(一个字)会查无结果, 这是故意地，不是bug
+
+u_map<en_key:str, vec<struct{en_key:str, weight:int>> InvertedIndex;
 
 # 问题或改进：
 
@@ -39,7 +43,6 @@ InvertedIndex;
 
 1. inverted-index 倒排索引
 2. trie-tree 字典树
-3.
 
 # 可能的提升方向
 
@@ -51,4 +54,4 @@ InvertedIndex;
 
 # 使用到的第三方库
 
-1. jieba: 分词
+~~1. jieba: 分词~~
