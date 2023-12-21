@@ -3,8 +3,6 @@
 #include "dictionary.h"
 #include "search.h"
 #include "config.h"
-#include "log.h"
-
 
 void process() {
 	std::string input;
@@ -20,7 +18,7 @@ void process() {
 		}
 		if (input.size() > MAX_WORD_LENGTH) {
 			std::cout << "单词长度超过" << MAX_WORD_LENGTH << ", 请重新输入"
-					  << std::endl;
+					  << "\n";
 			continue;
 		}
 		std::istringstream iss(input);
@@ -29,17 +27,22 @@ void process() {
 
 		// 使用空格分割字符串
 		while (iss >> word) {
-			words.push_back(word);
+			if (utils::is_ascii(word)) {
+				for (const auto &item : utils::splitWord(word)) {
+					words.push_back(utils::to_lowers(item));
+				}
+			} else {
+				words.push_back(word);
+			}
 		}
 		if (words.size() == 1) {
-			processInput(trie, input);
+			processInput(trie, words[0]);
 		} else {
 			processInput(trie, words);
 		}
-
 	}
 
-	std::cout << "输入结束。" << std::endl;
+	std::cout << "输入结束。\n";
 }
 
 int main() {

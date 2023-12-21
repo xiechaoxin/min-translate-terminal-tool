@@ -29,24 +29,35 @@ int minDistance(const std::string &word1, const std::string &word2) {
 			if (word1[i - 1] == word2[j - 1]) {
 				dp[j] = pre;
 			} else {
-				dp[j] = std::min({pre + CHANGE_COST, dp[j - 1] + INSERT_COST,
-								  temp + DELETE_COST});
+				dp[j] = std::min({pre + CHANGE_COST, dp[j - 1] + INSERT_COST, temp + DELETE_COST});
 			}
 			pre = temp;
 		}
 	}
 	return dp[len2];
 }
-// void processInput(Trie *trie, std::string &input) {}
-int fuzzyLimitCost = 2;	 // edit / delete / change cost = 1
 
-void processInput(Trie *trie, std::string &word) {
+std::vector<std::string> sortByWeight(std::vector<WordEntry> &res) {
+	// 按照 weight 从高到低对 res 进行排序
+	std::sort(res.begin(), res.end(), [](const WordEntry &a, const WordEntry &b) {
+		return a.weight > b.weight;	 // 降序排序
+	});
+
+	std::vector<std::string> res_print;
+	// 遍历排序后的 res，并将 key 插入到 res_print 中
+	for (const auto &entry : res) {
+		res_print.push_back(entry.key);
+	}
+	return res_print;
+}
+
+void processInput(Trie *trie, std::string &searchWord) {
 	std::string key;
-	if (utils::is_ascii(key)) {	 // 查找字典中的英文单词
+	if (utils::is_ascii(searchWord)) {  // 查找字典中的英文单词
 		if (CASE_SENSITIVE) {
-			key = word;
+			key = searchWord;
 		} else {
-			key = utils::to_lowers(word);
+			key = utils::to_lowers(searchWord);
 		}
 		std::vector<std::string> res = trie->fuzzySearch(key);
 		if (res.empty()) {
@@ -56,25 +67,39 @@ void processInput(Trie *trie, std::string &word) {
 			return;
 		}
 		utils::printDictionary(res);
+		utils::loggerSearch(res, searchWord);
 	} else {  // 查找字典中的中文解释to_lower
-		/* TODO<2023-12-14, @xcx> 中文逻辑比较难，trieTree不好实现，是否可以用其他数据结构？UTF8存储是个问题 */
-		std::vector<std::string> res = trie->fuzzySearch(key);
-		if (res.empty()) {
-			std::cout << "字典中未找到中文解释 " << key << std::endl;
+		std::vector<WordEntry> res;
+		std::vector<std::string> res_print;
+		try {
+			res = invered_index.at(searchWord);
+		} catch (const std::out_of_range &e) {
+			std::cout << "\t字典中未找到" << searchWord << "中文解释"
+					  << "\n";
 			return;
 		}
-		utils::printDictionary(res);
+		if (res.empty()) {
+			std::cout << "\t字典中未找到" << searchWord << "中文解释"
+					  << "\n";
+			return;
+		}
+		if (res.size() > CANDIDATES_NUMBER) {
+			res.resize(CANDIDATES_NUMBER);
+		}
+		res_print = sortByWeight(res);
+		utils::highlightPrintDictionary(res_print, searchWord);
+		utils::loggerSearch(res_print, searchWord);
 	}
 }
 
-void processInput(Trie *trie, std::vector<std::string> &words) {
-	for (auto &word : words) {
+void processInput(Trie *trie, std::vector<std::string> &searchWords) {
+	for (auto &searchWord : searchWords) {
 		std::string key;
-		if (utils::is_ascii(key)) {	 // 查找字典中的英文单词
+		if (utils::is_ascii(searchWord)) {  // 查找字典中的英文单词
 			if (CASE_SENSITIVE) {
-				key = word;
+				key = searchWord;
 			} else {
-				key = utils::to_lowers(word);
+				key = utils::to_lowers(searchWord);
 			}
 			bool exist = trie->search(key);
 			if (!exist) {
@@ -83,15 +108,29 @@ void processInput(Trie *trie, std::vector<std::string> &words) {
 				logger.error(key, "字典中未找到单词");
 				continue;
 			}
-			utils::printDictionary(word);
-		} else {  // 查找字典中的中文解释to_lower
-			/* TODO<2023-12-14, @xcx> 中文逻辑比较难，trieTree不好实现，是否可以用其他数据结构？UTF8存储是个问题 */
-			std::vector<std::string> res = trie->fuzzySearch(key);
-			if (res.empty()) {
-				std::cout << "字典中未找到中文解释 " << key << std::endl;
-				return;
+			utils::printDictionary(searchWord);
+			utils::loggerSearch(searchWord, searchWord);
+		} else {  // 查找字典中的中文解释
+			std::vector<WordEntry> res;
+			std::vector<std::string> res_print;
+			try {
+				res = invered_index.at(searchWord);
+			} catch (const std::out_of_range &e) {
+				std::cout << "\t字典中未找到" << searchWord << "中文解释"
+						  << "\n";
+				continue;
 			}
-			utils::printDictionary(res);
+			if (res.empty()) {
+				std::cout << "\t字典中未找到" << searchWord << "中文解释"
+						  << "\n";
+				continue;
+			}
+			if (res.size() > CANDIDATES_NUMBER) {
+				res.resize(CANDIDATES_NUMBER);
+			}
+			res_print = sortByWeight(res);
+			utils::highlightPrintDictionary(res_print, searchWord);
+			utils::loggerSearch(res_print, searchWord);
 		}
 	}
 }

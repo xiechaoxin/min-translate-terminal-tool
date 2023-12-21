@@ -39,12 +39,15 @@ public:
 	// 获取当前时间的字符串表示
 	static std::string GetCurrentTime() ;
 
+	// normal msg
+	void msg(const std::string& message);
 
 	// 输出日志的方法
 	void info(const std::string& message);
 	void warning(const std::string& message);
 	void error(const std::string& message);
 
+	// for translate log
 	void error(const std::string &en, const std::string &zh);
 	void info(const std::string &en, const std::string &zh);
 };

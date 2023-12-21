@@ -2,6 +2,690 @@
 [Thu Dec 14 04:52:07 2023]world	n. 世界；领域；世俗；全人类；物质生活
 [Thu Dec 14 05:02:43 2023]dfsafas;fA	字典中未找到单词
 [Thu Dec 14 05:02:43 2023]{}sdl	字典中未找到单词
-中文测试abc
-中文abcdefg
-中文测试
+[Wed Dec 20 16:31:27 2023]hello	n. 表示问候， 惊奇或唤起注意时的用语int. 喂；哈罗
+[Wed Dec 20 16:31:32 2023]hi	int. 嗨！（表示问候或用以唤起注意）
+[Wed Dec 20 16:31:32 2023]hiatal	非等粒的
+[Wed Dec 20 16:31:32 2023]hiatus	n. 裂缝，空隙；脱漏部分
+[Wed Dec 20 16:31:32 2023]hibernal	adj. 寒冷的；冬天的
+[Wed Dec 20 16:31:32 2023]hibernate	vi. 过冬；（动物）冬眠；（人等）避寒
+[Wed Dec 20 16:31:32 2023]hibernation	n. 冬眠；过冬；避寒
+[Wed Dec 20 16:31:32 2023]hibiscus	n. 木槿；芙蓉花
+[Wed Dec 20 16:31:32 2023]hiccough	n.& v. 打嗝; 打呃; 呃逆
+[Wed Dec 20 16:31:32 2023]hiccup	n. 打嗝vi. 打嗝vt. 呃逆着（或间断地）说出
+[Wed Dec 20 16:31:32 2023]hick	n. 乡下人；反应迟钝的人；土头土脑的人adj. 乡下的；乡巴佬的；愚蠢的
+[Wed Dec 20 16:31:39 2023]word	n. [语] 单词；话语；消息；诺言；命令vt. 用言辞表达
+[Wed Dec 20 16:31:39 2023]word book	n. 词典；字汇表；歌词集
+[Wed Dec 20 16:31:39 2023]word by word	adv. 逐字 逐字逐句地；逐字地；一个字一个字
+[Wed Dec 20 16:31:39 2023]word came that ...	有消息称；有消息传来说；有消息说
+[Wed Dec 20 16:31:39 2023]word for word	adv. 逐字翻译 逐字的；逐字地；一字不变地
+[Wed Dec 20 16:31:39 2023]word of mouth	adj. 口头表达；口传的 口碑；口耳相传；口碑行销
+[Wed Dec 20 16:31:39 2023]word processing	n. （计算机）字处理 文字处理；文书处理；数据处理
+[Wed Dec 20 16:31:39 2023]word processors	na. 文字处理器 文字处理软件；字处理程序；文书处理
+[Wed Dec 20 16:31:39 2023]wordage	n. 言词，字，字数
+[Wed Dec 20 16:31:39 2023]worded	vt. 措辞，用词（word的过去式与过去分词形式）
+[Wed Dec 20 16:31:44 2023]this	adj. 这；本；这个；今pron. 这；这个；这里adv. 这样地；这么
+[Wed Dec 20 16:31:44 2023]is	v. 是（be的三单形式）n. 存在
+[Wed Dec 20 16:31:44 2023]not	adv. 表示否定，不n. “非”（计算机中逻辑运算的一种）
+[Wed Dec 20 16:31:59 2023]this	adj. 这；本；这个；今pron. 这；这个；这里adv. 这样地；这么
+[Wed Dec 20 16:31:59 2023]is	v. 是（be的三单形式）n. 存在
+[Wed Dec 20 16:31:59 2023]not	adv. 表示否定，不n. “非”（计算机中逻辑运算的一种）
+[Wed Dec 20 16:31:59 2023]fdslkajflkasjfdlska	字典中未找到单词
+[Thu Dec 21 17:37:02 2023]A/P	Account Paid 现款支付; Advance Payment 预付; Air Purser 乘务长; Airplane 飞机; Autopilot 自动驾驶
+[Thu Dec 21 17:37:02 2023]APC	abbr. 美国动力会议（American Power Conference）；有穿甲弹头的（Armor-Piercing Capped）；亚洲石油公司（Asian Petroleum Company）；复方阿司匹林（Aspirin Phenacetin and Caffeine）；原子动力发电公司（Atomic Power Company）；自动相位控制（Automatic Phase Control）；自动功率控制（Automatic Power Control）；自动程序控制（Automatic Program Control）
+[Thu Dec 21 17:37:02 2023]APP.	聚磷酸铵；应用软件系统；聚磷酸胺
+[Thu Dec 21 17:37:02 2023]APR	abbr. 大气分布图记录系统（Air profile Recording）；年度成本百分率（Annual Percentage Rate）
+[Thu Dec 21 17:37:02 2023]APS	abbr. 美国物理学会（American Physical Society）
+[Thu Dec 21 17:37:06 2023]a.p	字典中未找到单词
+[Thu Dec 21 17:37:09 2023]A.P	字典中未找到单词
+[Thu Dec 21 17:37:12 2023]a.p.	abbr. 美国联合通讯社（Associated Press）；空气污染（Air Pollution）；大气规划（Air Program）；汇编程序（Assembly Program）
+[Thu Dec 21 17:37:12 2023]apace	adv. 飞快地，迅速地；急速地
+[Thu Dec 21 17:37:12 2023]apace with	跟随着
+[Thu Dec 21 17:37:12 2023]apart	adj. 分离的；与众不同的adv. 相距；与众不同地；分离着
+[Thu Dec 21 17:37:12 2023]apart from	prep. 除了…外（都）；要不是；除了…外（还）；此外 除……之外；除...外；除去
+[Thu Dec 21 17:37:12 2023]apart from ...	prep. 除了…外（都）；要不是；除了…外（还）；此外
+[Thu Dec 21 17:37:12 2023]apartheid	n. 种族隔离
+[Thu Dec 21 17:37:12 2023]apartment	n. 公寓；房间
+[Thu Dec 21 17:37:12 2023]apartment building	na. “apartment house”的变体 公寓楼；公寓大楼；公寓建筑
+[Thu Dec 21 17:37:12 2023]apartment complex	na. 公寓大楼 公寓综合楼；综合性公寓；公寓社区
+[Thu Dec 21 17:37:30 2023]A.P.	字典中未找到单词
+[Thu Dec 21 17:38:25 2023]a.p.	abbr. 美国联合通讯社（Associated Press）；空气污染（Air Pollution）；大气规划（Air Program）；汇编程序（Assembly Program）
+[Thu Dec 21 17:38:25 2023]apace	adv. 飞快地，迅速地；急速地
+[Thu Dec 21 17:38:25 2023]apace with	跟随着
+[Thu Dec 21 17:38:25 2023]Apache	n. 阿帕切族（美洲印第安部族）
+[Thu Dec 21 17:38:25 2023]apart	adj. 分离的；与众不同的adv. 相距；与众不同地；分离着
+[Thu Dec 21 17:38:25 2023]apart from	prep. 除了…外（都）；要不是；除了…外（还）；此外 除……之外；除...外；除去
+[Thu Dec 21 17:38:25 2023]apart from ...	prep. 除了…外（都）；要不是；除了…外（还）；此外
+[Thu Dec 21 17:38:25 2023]apartheid	n. 种族隔离
+[Thu Dec 21 17:38:25 2023]apartment	n. 公寓；房间
+[Thu Dec 21 17:38:25 2023]apartment building	na. “apartment house”的变体 公寓楼；公寓大楼；公寓建筑
+[Thu Dec 21 17:38:27 2023]a.p.	字典中未找到单词
+[Thu Dec 21 17:38:30 2023]a.p	字典中未找到单词
+[Thu Dec 21 17:38:33 2023]a.p.	abbr. 美国联合通讯社（Associated Press）；空气污染（Air Pollution）；大气规划（Air Program）；汇编程序（Assembly Program）
+[Thu Dec 21 17:38:33 2023]apace	adv. 飞快地，迅速地；急速地
+[Thu Dec 21 17:38:33 2023]apace with	跟随着
+[Thu Dec 21 17:38:33 2023]Apache	n. 阿帕切族（美洲印第安部族）
+[Thu Dec 21 17:38:33 2023]apart	adj. 分离的；与众不同的adv. 相距；与众不同地；分离着
+[Thu Dec 21 17:38:33 2023]apart from	prep. 除了…外（都）；要不是；除了…外（还）；此外 除……之外；除...外；除去
+[Thu Dec 21 17:38:33 2023]apart from ...	prep. 除了…外（都）；要不是；除了…外（还）；此外
+[Thu Dec 21 17:38:33 2023]apartheid	n. 种族隔离
+[Thu Dec 21 17:38:33 2023]apartment	n. 公寓；房间
+[Thu Dec 21 17:38:33 2023]apartment building	na. “apartment house”的变体 公寓楼；公寓大楼；公寓建筑
+[Thu Dec 21 17:48:14 2023]zoo-ecology	字典中未找到单词
+[Thu Dec 21 17:48:25 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 17:51:32 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 17:51:36 2023]zoo 	字典中未找到单词
+[Thu Dec 21 17:51:38 2023]zoo	n. 动物园; <美俚>（铁路货车的最后一节）守车; <美俚>核粒子园
+[Thu Dec 21 17:51:38 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 17:51:38 2023]zoogenic	adj. 由动物传染的，源于动物的
+[Thu Dec 21 17:51:38 2023]zookeeper	n. 动物园管理员
+[Thu Dec 21 17:51:38 2023]zoolatry	n. 动物崇拜
+[Thu Dec 21 17:51:38 2023]zoological	adj. 动物的，动物学的n. 动物园
+[Thu Dec 21 17:51:38 2023]zoologist	n. 动物学家
+[Thu Dec 21 17:51:38 2023]zoology	n. 动物学，动物学课程; （某一地区的）全部动物，（某种动物的）动物特性[特征]
+[Thu Dec 21 17:51:38 2023]zoom	vi. 嗡嗡作响; 急速上升n. 嗡嗡声; 隆隆声; （车辆等）疾驰的声音; 变焦vt. 使急速上升; 使猛增
+[Thu Dec 21 17:51:38 2023]zoom across	疾速驶过
+[Thu Dec 21 17:51:45 2023]zoo	n. 动物园; <美俚>（铁路货车的最后一节）守车; <美俚>核粒子园
+[Thu Dec 21 17:51:45 2023]ecology	n. 生态学；社会生态学
+[Thu Dec 21 17:53:19 2023]zoo-ecolo	字典中未找到单词
+[Thu Dec 21 17:53:24 2023]zoo-ecology	字典中未找到单词
+[Thu Dec 21 17:53:50 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 17:56:48 2023]zoo-ecology	字典中未找到单词
+[Thu Dec 21 18:00:14 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 18:00:19 2023]zoo	n. 动物园; <美俚>（铁路货车的最后一节）守车; <美俚>核粒子园
+[Thu Dec 21 18:00:19 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 18:00:19 2023]zoogenic	adj. 由动物传染的，源于动物的
+[Thu Dec 21 18:00:19 2023]zookeeper	n. 动物园管理员
+[Thu Dec 21 18:00:19 2023]zoolatry	n. 动物崇拜
+[Thu Dec 21 18:00:19 2023]zoological	adj. 动物的，动物学的n. 动物园
+[Thu Dec 21 18:00:19 2023]zoologist	n. 动物学家
+[Thu Dec 21 18:00:19 2023]zoology	n. 动物学，动物学课程; （某一地区的）全部动物，（某种动物的）动物特性[特征]
+[Thu Dec 21 18:00:19 2023]zoom	vi. 嗡嗡作响; 急速上升n. 嗡嗡声; 隆隆声; （车辆等）疾驰的声音; 变焦vt. 使急速上升; 使猛增
+[Thu Dec 21 18:00:19 2023]zoom across	疾速驶过
+[Thu Dec 21 18:00:24 2023]zoo-ecology	n. 动物生态学
+[Thu Dec 21 18:00:29 2023]ecology	n. 生态学；社会生态学
+[Thu Dec 21 18:33:42 2023]3-D	abbr. 三维的（three dimensional）
+[Thu Dec 21 19:51:32 2023]above	prep. 超过；在……上面；在……之上n. 上文adj. 上文的adv. 在上面；在上文
+[Thu Dec 21 19:51:32 2023]sea	n. 海；海洋；许多；大量
+[Thu Dec 21 19:51:32 2023]level	n. 水平；标准；水平面adj. 水平的；平坦的；同高的vi. 瞄准；拉平；变得平坦vt. 使同等；对准；弄平
+[Thu Dec 21 19:51:40 2023]abovesee	字典中未找到单词
+[Thu Dec 21 19:51:51 2023]aboveseelevel	字典中未找到单词
+[Thu Dec 21 19:51:54 2023]above	prep. 超过；在……上面；在……之上n. 上文adj. 上文的adv. 在上面；在上文
+[Thu Dec 21 19:51:54 2023]above all	na. 最主要的；最重要的是 首先；尤其是；特别是
+[Thu Dec 21 19:51:54 2023]above all else	在一切之上；高於其它一切；要的
+[Thu Dec 21 19:51:54 2023]above and beyond	原子弹轰炸广岛记；超越；大于
+[Thu Dec 21 19:51:54 2023]above average	adj. 异乎寻常的 高于平均水平；平均以上；超过平均水平
+[Thu Dec 21 19:51:54 2023]above board	adj. 光明正大的 光明正大地；公开的；光明磊落
+[Thu Dec 21 19:51:54 2023]above norm	超额;高出平价
+[Thu Dec 21 19:51:54 2023]above one's head	难以理解；高深莫测；超出某人的理解力
+[Thu Dec 21 19:51:54 2023]above-average	平均以上；在一般水准以上
+[Thu Dec 21 19:51:54 2023]aboveboard	adj. 光明正大的；直率的adv. 光明正大地；率直地
+[Thu Dec 21 20:03:30 2023]泥鳅	字典中未找到单词
+[Thu Dec 21 20:03:35 2023]解说	字典中未找到单词
+[Thu Dec 21 20:03:40 2023]结束	字典中未找到单词
+[Thu Dec 21 20:04:24 2023]第一	字典中未找到单词
+[Thu Dec 21 20:05:44 2023]泥鳅	字典中未找到单词
+[Thu Dec 21 20:05:48 2023]你好	字典中未找到单词
+[Thu Dec 21 20:10:50 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 20:10:50 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 20:10:50 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 20:10:50 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 20:10:50 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 20:10:50 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 20:10:50 2023]bring to a close	na. 结束 使结束；收束；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]food containers	《英文msh词典》Food Containers[同义词] Food Containers[主题词] Food Packaging[中文释义] 食品容器[英文释义] Containers,packaging,and packaging materials for processed and raw foods and beverages. It includes packaging intended to be used for storage and also used for preparation of foods such as microwave food containers versus COOKING AND EATING UTENSILS. Packaging materials may be intended for food contact or designated non-contact,for example,shipping containers. FOOD LABELING is also available.
+[Thu Dec 21 20:10:50 2023]food labeling	《英文msh词典》Food Labeling[主题词] Food Labeling[同义词] Labeling,Food[同义词] Nutrition Labeling[同义词] Product Labeling,Food[入口词] Food Labelling[入口词] Food Product Labeling[入口词] Labeling,Food Product[入口词] Labeling,Nutrition[入口词] Labelling,Food[中文释义] 食品标签[英文释义] Use of written,printed,or graphic materials upon or accompanying a food or its container or wrapper. The concept includes ingredients,nutritional value,directions,warnings,and other relevant information.
+[Thu Dec 21 20:10:50 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 20:10:50 2023]have a poor appetite	胃口不好；胃口好；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]have a voice in	na. 对…有发言权 参与；在…有发言权；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]have one's wits about one	na. 头脑冷静；保持警惕 警觉；的中文翻译
+[Thu Dec 21 20:10:50 2023]if it wasn't for sb.	若不是因为某种原因的话；若不是因某种原因的话；的中文意思
+[Thu Dec 21 20:10:50 2023]if it wasn't for sth.	若不是因为某种原因的话；若不是因某种原因的话；的中文意思
+[Thu Dec 21 20:10:50 2023]international airport	un. 国际航空站 国际机场；日内瓦国际机场；中文英文中文英文国际机场
+[Thu Dec 21 20:10:50 2023]lodge an appeal	na. 提出上诉 提出申诉；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]make a concession to	na. 对…让步 对...让步；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]make a distinction	区分；做出区分；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]make a getaway	na. 逃掉；逃走；突围 一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]make sentences with	用…造句；用……来造句；翻译成中文
+[Thu Dec 21 20:10:50 2023]place a premium on	na. 诱发；助长；鼓励；奖励 一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]present oneself	na. 出席(会议等)；出现(在听众面前等)；到场 参加；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]skywriting	n. 空中文字（指飞机放烟在空中写成的文字或图案）v. 用飞机喷出的烟写字，大肆宣扬( skywrite的现在分词 )
+[Thu Dec 21 20:10:50 2023]soporiferously	催眠的；的中文翻译及音标
+[Thu Dec 21 20:10:50 2023]submit oneself to	na. 服从 甘受；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]take a pleasure in	na. 高兴地；以…为乐；欣然 喜欢；以...为乐；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]take a stand against	v. 表明立场反对 采取某种立场反对；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]take up an occupation	就业；从事职业；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]there is a lack of ...	缺少；没有；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]under any circumstances	un. 不管怎样；无论如何 在任何情况下；在无论何种情况下；一个中文词语或英文单词
+[Thu Dec 21 20:10:50 2023]with a high hand	na. 用高压手段；武断地 用强硬的手段；傲慢地；一个中文词语或英文单词
+[Thu Dec 21 20:15:49 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 20:15:49 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 20:15:49 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 20:15:49 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 20:15:49 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 20:15:49 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 20:15:49 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 20:15:49 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 20:15:49 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 20:15:49 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 20:16:03 2023]celestial sphere	n. 天体 天球；球面叫天球；天球星空
+[Thu Dec 21 20:16:03 2023]starry sky	满天星；星座彼氏；星空
+[Thu Dec 21 20:16:03 2023]under the stars	星光下；在星空下；星空之下
+[Thu Dec 21 20:17:29 2023]Book of Odes	《诗经》(中国最早的诗歌总集；公元前6世纪由孔子编纂而成)[汉语名称 Shik Ching，Shih King]
+[Thu Dec 21 20:17:29 2023]CBA	abbr. 中国篮球协会（China Basketball Association）；成本效益分析（Cost-Benefit Analysis）
+[Thu Dec 21 20:17:29 2023]CCTV	abbr. 闭路电视（Closed Circuit Television）；中国中央电视台（China Central Television）
+[Thu Dec 21 20:17:29 2023]Cali	abbr. 中国照明电器协会（China Association of Lighting Industry）
+[Thu Dec 21 20:17:29 2023]china	n. 中国n. china，瓷器adj. 中国的；中国制造的adj. china，瓷制的
+[Thu Dec 21 20:17:29 2023]China Daily	n. 中国日报; <中国日报>是中华人民共和国成立以来创办的第一份也是目前唯一的一份全国性英文日报。中国日报以权威、客观、迅捷的报道; 向国内外读者介绍了我国政治、经济、文化、社会等各方面的讯息。<中国日报>是目前我国被境外各大通讯社、报刊、电台、电视台转载最高的媒体; 在全球信息交流中代表中国的声音
+[Thu Dec 21 20:17:29 2023]China Welfare Institute	n. 中国福利会 中国福利协会；中国福利基金会
+[Thu Dec 21 20:17:29 2023]China hand	中国通；中国手；一位中国通的自述
+[Thu Dec 21 20:17:29 2023]Chinatown	n. 唐人街，中国城
+[Thu Dec 21 20:17:29 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 21:12:53 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 21:12:53 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 21:12:53 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 21:12:53 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 21:12:53 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 21:12:53 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 21:12:53 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 21:12:53 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 21:12:53 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 21:12:53 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 21:12:59 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 21:12:59 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 21:12:59 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 21:12:59 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 21:12:59 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 21:12:59 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 21:12:59 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 21:12:59 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 21:12:59 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 21:12:59 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 21:13:06 2023]Chinese characters	un. 汉字
+[Thu Dec 21 21:13:06 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 21:13:06 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 21:13:23 2023]although	conj. 尽管；虽然；但是；然而
+[Thu Dec 21 21:13:23 2023]and	conj. 和，与；就；而且；但是；然后
+[Thu Dec 21 21:13:23 2023]and yet	na. 但 然而；可是；但是
+[Thu Dec 21 21:13:23 2023]nonetheless	adv. 尽管如此，但是
+[Thu Dec 21 21:13:23 2023]but then	na. 但是；但是另一方面 不过；但另一方面；然而
+[Thu Dec 21 21:13:23 2023]but	conj. 但是；而是；然而adv. 仅仅，只prep. 除…以外
+[Thu Dec 21 21:13:23 2023]exclude ... from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:13:23 2023]exclude from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:13:23 2023]exclude sb. from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:13:23 2023]but then again	但是一样的是；但在那时；话说回来
+[Thu Dec 21 21:46:26 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 21:46:26 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 21:46:26 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 21:46:26 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 21:46:26 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 21:46:26 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 21:46:26 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 21:46:26 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 21:46:26 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 21:46:26 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 21:46:33 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 21:46:33 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 21:46:33 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 21:46:33 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 21:46:33 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 21:46:33 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 21:46:33 2023]English immersion	英式沉浸
+[Thu Dec 21 21:46:33 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 21:46:33 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 21:46:33 2023]Englishman	n. 英国人
+[Thu Dec 21 21:46:58 2023]info	n. 信息；情报
+[Thu Dec 21 21:46:58 2023]inform	vi. 告发；告密vt. 通知；告诉；报告
+[Thu Dec 21 21:46:58 2023]inform ... about	将…告知（某人）
+[Thu Dec 21 21:46:58 2023]inform ... of	v. 通知关于 告诉；将…告知；报告
+[Thu Dec 21 21:46:58 2023]inform about	将…告知（某人）
+[Thu Dec 21 21:46:58 2023]inform of	v. 通知关于 告诉；将…告知；报告
+[Thu Dec 21 21:46:58 2023]inform sb. about	将…告知（某人）
+[Thu Dec 21 21:46:58 2023]inform sb. about sth.	将…告知（某人）
+[Thu Dec 21 21:46:58 2023]inform sb. of	v. 通知关于 告诉；将…告知；报告
+[Thu Dec 21 21:46:58 2023]inform sb. of sth.	v. 通知关于
+[Thu Dec 21 21:47:25 2023]find	n. 发现vi. 裁决vt. 查找，找到；发现；认为；感到；获得
+[Thu Dec 21 21:47:25 2023]find a pretext for	na. 为…找口实 为...找口实；为……找借口
+[Thu Dec 21 21:47:25 2023]find a way out	找到出路；找出一条出路；找出路
+[Thu Dec 21 21:47:25 2023]find expression	得到表达得以表达
+[Thu Dec 21 21:47:25 2023]find fault	挑剔；埋怨；挑毛病
+[Thu Dec 21 21:47:25 2023]find fault with	na. 吹毛求疵；找…的岔子 挑剔；找岔子；挑毛病
+[Thu Dec 21 21:47:25 2023]find one's way	na. 到达 找到路；设法到达；找到路径
+[Thu Dec 21 21:47:25 2023]find one's way out	寻找解决方法；寻找出路
+[Thu Dec 21 21:47:25 2023]find one's way to	na. 到达(目的地) 设法赶到；设法到达；找到…的去路
+[Thu Dec 21 21:47:25 2023]find out	na. 查出；发现；看清…的面目；识破 查明；找出；了解
+[Thu Dec 21 21:48:40 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 21:48:40 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 21:48:40 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 21:48:40 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 21:48:40 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 21:48:40 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 21:48:40 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 21:48:40 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 21:48:40 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 21:48:40 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 21:48:47 2023]djui	字典中未找到单词
+[Thu Dec 21 21:48:48 2023]although	conj. 尽管；虽然；但是；然而
+[Thu Dec 21 21:48:48 2023]and	conj. 和，与；就；而且；但是；然后
+[Thu Dec 21 21:48:48 2023]and yet	na. 但 然而；可是；但是
+[Thu Dec 21 21:48:48 2023]nonetheless	adv. 尽管如此，但是
+[Thu Dec 21 21:48:48 2023]but then	na. 但是；但是另一方面 不过；但另一方面；然而
+[Thu Dec 21 21:48:48 2023]but	conj. 但是；而是；然而adv. 仅仅，只prep. 除…以外
+[Thu Dec 21 21:48:48 2023]exclude ... from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:48:48 2023]exclude from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:48:48 2023]exclude sb. from	把…排斥于…之外；把……排除在外；同上但是使用档案
+[Thu Dec 21 21:48:48 2023]but then again	但是一样的是；但在那时；话说回来
+[Thu Dec 21 21:48:56 2023]highlightedtext	字典中未找到单词
+[Thu Dec 21 22:02:44 2023]vsw	字典中未找到单词
+[Thu Dec 21 22:02:45 2023]vs.	na. V字形；V形物；(罗马数码)五；五年徒刑
+[Thu Dec 21 22:02:45 2023]VSA	abbr. vehicle stability assist 车辆稳定性辅助设备; victualling store allowance 食物储藏补助; voice stress analyzer 重音分析器
+[Thu Dec 21 22:02:45 2023]V-sign	v字手势
+[Thu Dec 21 22:03:01 2023]engage	vi. 从事；答应，保证；交战；啮合vt. 吸引，占用；使参加；雇佣；使订婚；预定
+[Thu Dec 21 22:03:01 2023]engage in	na. 从事；参加 参与；从事于；忙于
+[Thu Dec 21 22:03:01 2023]engage in something	搞点东西
+[Thu Dec 21 22:03:01 2023]engage in sth.	na. 从事；参加
+[Thu Dec 21 22:03:01 2023]engage oneself in	正忙于，正做着；致力于，从事；干预
+[Thu Dec 21 22:03:01 2023]engage with	un. 与…交战；与…接洽 建立友好关系；交流；与……交战
+[Thu Dec 21 22:03:01 2023]engage with ...	un. 与…交战；与…接洽
+[Thu Dec 21 22:03:01 2023]engage with sb.	un. 与…交战；与…接洽
+[Thu Dec 21 22:03:01 2023]engage with sth.	un. 与…交战；与…接洽
+[Thu Dec 21 22:03:01 2023]engaged	v. 保证；约定；同…订婚（engage的过去分词）adj. 使用中的，忙碌的
+[Thu Dec 21 22:03:04 2023]vswf	字典中未找到单词
+[Thu Dec 21 22:03:10 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 22:03:10 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:03:10 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 22:03:10 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 22:03:10 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 22:03:10 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 22:03:10 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 22:03:10 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 22:03:10 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 22:03:10 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 22:04:01 2023]vs.	na. V字形；V形物；(罗马数码)五；五年徒刑
+[Thu Dec 21 22:04:01 2023]VSA	abbr. vehicle stability assist 车辆稳定性辅助设备; victualling store allowance 食物储藏补助; voice stress analyzer 重音分析器
+[Thu Dec 21 22:04:01 2023]V-sign	v字手势
+[Thu Dec 21 22:05:45 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:05:45 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 22:05:45 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 22:05:45 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:05:45 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 22:05:45 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:05:45 2023]English immersion	英式沉浸
+[Thu Dec 21 22:05:45 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 22:05:45 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 22:05:45 2023]Englishman	n. 英国人
+[Thu Dec 21 22:07:09 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:07:09 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 22:07:09 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 22:07:09 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:07:09 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 22:07:09 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:07:09 2023]English immersion	英式沉浸
+[Thu Dec 21 22:07:09 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 22:07:09 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 22:07:09 2023]Englishman	n. 英国人
+[Thu Dec 21 22:07:26 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:07:26 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 22:07:26 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 22:07:26 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:07:26 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 22:07:26 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:07:26 2023]English immersion	英式沉浸
+[Thu Dec 21 22:07:26 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 22:07:26 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 22:07:26 2023]Englishman	n. 英国人
+[Thu Dec 21 22:10:50 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:10:50 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 22:10:50 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 22:10:50 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:10:50 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 22:10:50 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:10:50 2023]English immersion	英式沉浸
+[Thu Dec 21 22:10:50 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 22:10:50 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 22:10:50 2023]Englishman	n. 英国人
+[Thu Dec 21 22:11:01 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 22:11:01 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:11:01 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 22:11:01 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 22:11:01 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 22:11:01 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 22:11:01 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 22:11:01 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 22:11:01 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 22:11:01 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 22:11:15 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:11:15 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 22:11:15 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 22:11:15 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:11:15 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 22:11:15 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:11:15 2023]English immersion	英式沉浸
+[Thu Dec 21 22:11:15 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 22:11:15 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 22:11:15 2023]Englishman	n. 英国人
+[Thu Dec 21 22:11:24 2023]hi	int. 嗨！（表示问候或用以唤起注意）
+[Thu Dec 21 22:11:24 2023]hiatal	非等粒的
+[Thu Dec 21 22:11:24 2023]hiatus	n. 裂缝，空隙；脱漏部分
+[Thu Dec 21 22:11:24 2023]hibernal	adj. 寒冷的；冬天的
+[Thu Dec 21 22:11:24 2023]hibernate	vi. 过冬；（动物）冬眠；（人等）避寒
+[Thu Dec 21 22:11:24 2023]hibernation	n. 冬眠；过冬；避寒
+[Thu Dec 21 22:11:24 2023]hibiscus	n. 木槿；芙蓉花
+[Thu Dec 21 22:11:24 2023]hiccough	n.& v. 打嗝; 打呃; 呃逆
+[Thu Dec 21 22:11:24 2023]hiccup	n. 打嗝vi. 打嗝vt. 呃逆着（或间断地）说出
+[Thu Dec 21 22:11:24 2023]hick	n. 乡下人；反应迟钝的人；土头土脑的人adj. 乡下的；乡巴佬的；愚蠢的
+[Thu Dec 21 22:12:41 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:12:41 2023]word	n. [语] 单词；话语；消息；诺言；命令vt. 用言辞表达
+[Thu Dec 21 22:12:53 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 22:12:53 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:12:53 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 22:12:53 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 22:12:53 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 22:12:53 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 22:12:53 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 22:12:53 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 22:12:53 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 22:12:53 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 22:12:53 2023]How do you do?	（初次见面）您好！
+[Thu Dec 21 22:12:53 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:12:53 2023]good luck	na. 幸运 祝你好运；祝好运；好运气
+[Thu Dec 21 22:12:53 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:13:34 2023]Docklands	n. 达克兰（墨尔本的一个区）
+[Thu Dec 21 22:13:34 2023]make a wish	许愿；许个愿；许一个愿望
+[Thu Dec 21 22:13:34 2023]cinderella	n. 灰姑娘（童话中的一个形象）
+[Thu Dec 21 22:13:34 2023]Md	abbr. 迷你光碟（mini disk）；总经理（Managing Director）；医务部（Medical Department）；美国马里兰州（Maryland）；DOS命令：建立一个新的子目录；肌肉萎缩症（muscular dystrophy）
+[Thu Dec 21 22:13:34 2023]Guatemalan	n. 危地马拉人adj. 危地马拉的（中美洲的一个国家）
+[Thu Dec 21 22:13:34 2023]California	n. 加利福尼亚（美国一个州）
+[Thu Dec 21 22:13:34 2023]Jamaica	n. 牙买加（拉丁美洲一个国家）
+[Thu Dec 21 22:13:34 2023]Alberta	n. 亚伯达（加拿大西部的一个省）
+[Thu Dec 21 22:13:34 2023]Gorgon	n. 蛇发女怪（希腊神话中的一个形象）；丑陋女人
+[Thu Dec 21 22:13:34 2023]Englishmen	n. 英国人; 英格兰（男）人，英国（男）人( Englishman的名词复数 ); 英国人的家就是他的城堡（意即一个人的家是安全的私人场所）
+[Thu Dec 21 22:15:25 2023]How do you do?	（初次见面）您好！
+[Thu Dec 21 22:15:25 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:15:25 2023]good luck	na. 幸运 祝你好运；祝好运；好运气
+[Thu Dec 21 22:15:25 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:16:44 2023]How do you do?	（初次见面）您好！
+[Thu Dec 21 22:16:44 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:16:44 2023]good luck	na. 幸运 祝你好运；祝好运；好运气
+[Thu Dec 21 22:16:44 2023]hey	n. 干草（等于hay）int. 喂！（引起注意等）；你好！（表示问候）
+[Thu Dec 21 22:17:16 2023]official copy	正式文本
+[Thu Dec 21 22:17:16 2023]uncorrupt	adj. 未堕落的; 不腐败的; （文本等）无讹误的; 纯正的
+[Thu Dec 21 22:17:16 2023]the Constitution	宪法；美国宪法；宪法文本
+[Thu Dec 21 22:17:16 2023]helpdesk	n. 帮助台；超文本文档帮助信息
+[Thu Dec 21 22:17:16 2023]text	n. [计] 文本；课文；主题vt. 发短信
+[Thu Dec 21 22:17:16 2023]text-message	n. 文本信息；短信息 简讯；手机短信；文本传递
+[Thu Dec 21 22:17:16 2023]text message	n. 文本信息；短信息 简讯；发短信；文字讯息
+[Thu Dec 21 22:17:16 2023]hard copy	n. 硬拷贝 打印稿；电脑打印稿；复印文本
+[Thu Dec 21 22:17:16 2023]hypertext	n. [计] 超文本（含有指向其它文本文件链接的文本）
+[Thu Dec 21 22:18:41 2023]findl	字典中未找到单词
+[Thu Dec 21 22:18:46 2023]findl	字典中未找到单词
+[Thu Dec 21 22:18:55 2023]final	n. 决赛；期末考试；当日报纸的末版adj. 最终的；决定性的；不可更改的
+[Thu Dec 21 22:18:55 2023]final demand	un. 最终需求 终端需求；终端消费需求
+[Thu Dec 21 22:18:55 2023]final determination	最终裁定；最终决定；最后决定
+[Thu Dec 21 22:18:55 2023]final exam	n. 期末考 期末考试；期终考试；期末考周
+[Thu Dec 21 22:18:55 2023]final game	决赛（球类适用）
+[Thu Dec 21 22:18:55 2023]final order	[法] 诉讼终止时发出的命令, 最后命令
+[Thu Dec 21 22:18:55 2023]final price	un. 最后价格 最终价格；最后出价；最后价钱更新
+[Thu Dec 21 22:18:55 2023]final velocity	na. (发射物的)终速 末速度；最终速度；最后速度
+[Thu Dec 21 22:18:55 2023]finale	n. 结局；终曲；最后一场；最后乐章；尾声
+[Thu Dec 21 22:18:55 2023]finalisation	n. 定稿
+[Thu Dec 21 22:20:44 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 22:20:44 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:20:44 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 22:20:44 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 22:20:44 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 22:20:44 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 22:20:44 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 22:20:44 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 22:20:44 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 22:20:44 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 22:20:52 2023]Analects of Confucius	论语；论语十则；论语中英文对照
+[Thu Dec 21 22:20:52 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 22:20:52 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 22:20:52 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 22:20:52 2023]CPI	abbr. 每一次安装收费 (Cost per Install)abbr. 消费物价指数的英文缩写（Consumer Price Index）
+[Thu Dec 21 22:20:52 2023]Hans Christian Andersen	安徒生；汉斯·克里斯蒂安·安徒生；安徒生的英文名
+[Thu Dec 21 22:20:52 2023]Hope Project	希望工程；关于希望工程的英文文章；希望项目
+[Thu Dec 21 22:20:52 2023]ICU	n. ICU是英文Intensive Care Unit的缩写，意为重症加强护理病房。
+[Thu Dec 21 22:20:52 2023]Chinese Academy of Sciences	n. 中国科学院 中科院；中科院的英文名称；中国科学院化学研究所
+[Thu Dec 21 22:20:52 2023]China Daily	n. 中国日报; <中国日报>是中华人民共和国成立以来创办的第一份也是目前唯一的一份全国性英文日报。中国日报以权威、客观、迅捷的报道; 向国内外读者介绍了我国政治、经济、文化、社会等各方面的讯息。<中国日报>是目前我国被境外各大通讯社、报刊、电台、电视台转载最高的媒体; 在全球信息交流中代表中国的声音
+[Thu Dec 21 22:21:03 2023]China Daily	n. 中国日报; <中国日报>是中华人民共和国成立以来创办的第一份也是目前唯一的一份全国性英文日报。中国日报以权威、客观、迅捷的报道; 向国内外读者介绍了我国政治、经济、文化、社会等各方面的讯息。<中国日报>是目前我国被境外各大通讯社、报刊、电台、电视台转载最高的媒体; 在全球信息交流中代表中国的声音
+[Thu Dec 21 22:21:03 2023]CBA	abbr. 中国篮球协会（China Basketball Association）；成本效益分析（Cost-Benefit Analysis）
+[Thu Dec 21 22:21:03 2023]CCTV	abbr. 闭路电视（Closed Circuit Television）；中国中央电视台（China Central Television）
+[Thu Dec 21 22:21:03 2023]Cali	abbr. 中国照明电器协会（China Association of Lighting Industry）
+[Thu Dec 21 22:21:03 2023]China hand	中国通；中国手；一位中国通的自述
+[Thu Dec 21 22:21:03 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:21:03 2023]China Welfare Institute	n. 中国福利会 中国福利协会；中国福利基金会
+[Thu Dec 21 22:21:03 2023]china	n. 中国n. china，瓷器adj. 中国的；中国制造的adj. china，瓷制的
+[Thu Dec 21 22:21:03 2023]Chinatown	n. 唐人街，中国城
+[Thu Dec 21 22:21:03 2023]Book of Odes	《诗经》(中国最早的诗歌总集；公元前6世纪由孔子编纂而成)[汉语名称 Shik Ching，Shih King]
+[Thu Dec 21 22:25:11 2023]open	adj. 公开的；敞开的；空旷的；坦率的；营业着的vi. 开始；展现vt. 公开；打开n. 公开；空旷；户外
+[Thu Dec 21 22:25:11 2023]open a bank account	开立银行帐户；开户；开银行账户
+[Thu Dec 21 22:25:11 2023]open access	开放获取；开放存取；开放取用
+[Thu Dec 21 22:25:11 2023]open admission	免试入学制；开放式入学
+[Thu Dec 21 22:25:11 2023]open air	n. 露天；户外 露天地方；露天的；户外的
+[Thu Dec 21 22:25:11 2023]open an account	v. 开帐户 开户；开账户；开户头
+[Thu Dec 21 22:25:11 2023]open border	开放边界；开边境；国境开放
+[Thu Dec 21 22:25:11 2023]open borders	开放疆界；开放政策；开边
+[Thu Dec 21 22:25:11 2023]open circuit	na. 开路 断路；断开电路；开式回路
+[Thu Dec 21 22:25:11 2023]open classroom	开放式教室；自由学习的课堂
+[Thu Dec 21 22:25:18 2023]class	n. 阶级；班级；种类；班；等级adj. 极好的；很好的，优秀的，出色的vt. 分类；把…分等级；把…归入某等级，把…看作（或分类、归类）；把…编入某一班级vi. 属于…类（或等级），被列为某类（或某级）
+[Thu Dec 21 22:25:18 2023]class action	n. 集体诉讼 集团诉讼；法网雄心；共同起诉
+[Thu Dec 21 22:25:18 2023]class conflict	un. 阶级冲突 阶级斗争；著阶级斗争；阶级冲突意识
+[Thu Dec 21 22:25:18 2023]class discussion	课堂讨论；教室讨论；班级讨论
+[Thu Dec 21 22:25:18 2023]class meeting	na. 班会 级会；班会课；主题班会
+[Thu Dec 21 22:25:18 2023]class schedule	课程表；课表；功课表
+[Thu Dec 21 22:25:18 2023]class warfare	阶级斗争；阶级战争；挑起阶级战争
+[Thu Dec 21 22:25:18 2023]class-action	n. 集体诉讼
+[Thu Dec 21 22:25:18 2023]class-action lawsuit	人集体诉讼；人集体诉讼案件
+[Thu Dec 21 22:25:18 2023]classic	n. 名著；经典著作；大艺术家adj. 经典的；古典的，传统的；最优秀的
+[Thu Dec 21 22:38:41 2023]include	vt. 包含，包括
+[Thu Dec 21 22:38:41 2023]tk	字典中未找到单词
+[Thu Dec 21 22:38:41 2023]decls	字典中未找到单词
+[Thu Dec 21 22:38:41 2023]h	字典中未找到单词
+[Thu Dec 21 22:39:18 2023]final	n. 决赛；期末考试；当日报纸的末版adj. 最终的；决定性的；不可更改的
+[Thu Dec 21 22:39:18 2023]work	n. 工作；[物] 功；产品；操作；职业；行为；事业；工厂；著作；文学、音乐或艺术作品vt. 使工作；操作；经营；使缓慢前进vi. 工作；运作；起作用
+[Thu Dec 21 22:39:18 2023]dictionary	n. 字典；词典
+[Thu Dec 21 22:39:41 2023]input	n. 投入；输入电路vt. [自][电子] 输入；将…输入电脑
+[Thu Dec 21 22:39:41 2023]break	vi. 打破；折断；弄坏；削弱vt. （使）破；打破（纪录）；（常指好天气）突变；开始vi. （嗓音）突变；突破；破晓；（价格）突然下跌n. 破裂；间断；（持续一段时间的状况的）改变；间歇
+[Thu Dec 21 22:39:41 2023]dictionary	n. 字典；词典
+[Thu Dec 21 22:39:53 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:41:08 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:41:13 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:41:13 2023]word	n. [语] 单词；话语；消息；诺言；命令vt. 用言辞表达
+[Thu Dec 21 22:41:22 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:41:41 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:41:41 2023]words	n. [计] 字（word的复数）；话语；言语v. 用言语表达（word的三单形式）
+[Thu Dec 21 22:41:47 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:43:27 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:46:00 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:48:19 2023]splitted	字典中未找到单词
+[Thu Dec 21 22:48:19 2023]words	n. [计] 字（word的复数）；话语；言语v. 用言语表达（word的三单形式）
+[Thu Dec 21 22:48:33 2023]this	adj. 这；本；这个；今pron. 这；这个；这里adv. 这样地；这么
+[Thu Dec 21 22:48:33 2023]is	v. 是（be的三单形式）n. 存在
+[Thu Dec 21 22:48:33 2023]sample	n. 样品；样本；例子adj. 试样的，样品的；作为例子的vt. 取样；尝试；抽样检查
+[Thu Dec 21 22:48:33 2023]123	字典中未找到单词
+[Thu Dec 21 22:48:33 2023]snake	n. 蛇；阴险的人vt. 拉（木材等）；迂回前进vi. 迂回前进
+[Thu Dec 21 22:48:33 2023]case	n. 情况；实例；箱vt. 包围；把…装于容器中
+[Thu Dec 21 22:48:33 2023]kebab	n. （印）烤肉串；烤腌羊肉串（等于kabob）
+[Thu Dec 21 22:48:33 2023]case	n. 情况；实例；箱vt. 包围；把…装于容器中
+[Thu Dec 21 22:51:52 2023]sneak	n. 鬼鬼祟祟的人；偷偷摸摸的行为；告密者adj. 暗中进行的vi. 溜；鬼鬼祟祟做事；向老师打小报告vt. 偷偷地做；偷偷取得
+[Thu Dec 21 22:51:52 2023]tie	n. 领带；平局；鞋带；领结；不分胜负vi. 打结；不分胜负；被用带（或绳子等）系住vt. 系；约束；打结；与…成平局
+[Thu Dec 21 22:58:35 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 22:58:35 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 22:58:35 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 22:58:35 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 22:58:35 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 22:58:35 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 22:58:35 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 22:58:35 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 22:58:35 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 22:58:35 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个中文词语或英文单词
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]Chinese	n. 中文，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]Chinese book	语文书；中文书；英语书
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]Chinese character	n. 汉字 中文汉字；汉字字符；中国的汉字
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的中文名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]break prison	na. 越狱 在线翻译；的精选例句；的中文翻译
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]as a function of	一个中文词语或英文单词
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]at your fingertips	唾手可得的；手边的；一个中文词语或英文单词
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[中文释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 23:07:59 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:07:59 2023]a succession of	det. 一连串的 一系列；一系列的；一个中文词语或英文单词
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english]]
+[Thu Dec 21 23:08:34 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english as a foreign language]]
+[Thu Dec 21 23:08:34 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english as a second language]]
+[Thu Dec 21 23:08:34 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english book]]
+[Thu Dec 21 23:08:34 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english channel]]
+[Thu Dec 21 23:08:34 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english class]]
+[Thu Dec 21 23:08:34 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 23:08:34 2023]INFO: search: [[english immersion]]
+[Thu Dec 21 23:08:34 2023]English immersion	英式沉浸
+[Thu Dec 21 23:08:34 2023]INFO: search: [[englishchinese dictionary]]
+[Thu Dec 21 23:08:34 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 23:08:34 2023]INFO: search: [[englishlanguage]]
+[Thu Dec 21 23:08:34 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 23:08:34 2023]INFO: search: [[englishman]]
+[Thu Dec 21 23:08:34 2023]Englishman	n. 英国人
+[Thu Dec 21 23:50:39 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:50:39 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:50:39 2023]Chinese	n. [[中文]]，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 23:50:39 2023]Chinese book	语文书；[[中文]]书；英语书
+[Thu Dec 21 23:50:39 2023]Chinese character	n. 汉字 [[中文]]汉字；汉字字符；中国的汉字
+[Thu Dec 21 23:50:39 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的[[中文]]名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 23:50:39 2023]break prison	na. 越狱 在线翻译；的精选例句；的[[中文]]翻译
+[Thu Dec 21 23:50:39 2023]as a function of	一个[[中文]]词语或英文单词
+[Thu Dec 21 23:50:39 2023]at your fingertips	唾手可得的；手边的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:50:39 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[[[中文]]释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 23:50:39 2023]a succession of	det. 一连串的 一系列；一系列的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:51:03 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:51:03 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:51:03 2023]Chinese	n. [[中文]]，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 23:51:03 2023]Chinese book	语文书；[[中文]]书；英语书
+[Thu Dec 21 23:51:03 2023]Chinese character	n. 汉字 [[中文]]汉字；汉字字符；中国的汉字
+[Thu Dec 21 23:51:03 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的[[中文]]名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 23:51:03 2023]break prison	na. 越狱 在线翻译；的精选例句；的[[中文]]翻译
+[Thu Dec 21 23:51:03 2023]as a function of	一个[[中文]]词语或英文单词
+[Thu Dec 21 23:51:03 2023]at your fingertips	唾手可得的；手边的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:51:03 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[[[中文]]释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 23:51:03 2023]a succession of	det. 一连串的 一系列；一系列的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:51:03 2023]INFO: search: [[英文]]
+[Thu Dec 21 23:51:03 2023]Analects of Confucius	论语；论语十则；论语中[[英文]]对照
+[Thu Dec 21 23:51:03 2023]English	n. 英语；英国人；[[英文]]；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 23:51:03 2023]English class	英语课；[[英文]]课；英语课程
+[Thu Dec 21 23:51:03 2023]English book	英语书；[[英文]]书；数学书
+[Thu Dec 21 23:51:03 2023]CPI	abbr. 每一次安装收费 (Cost per Install)abbr. 消费物价指数的[[英文]]缩写（Consumer Price Index）
+[Thu Dec 21 23:51:03 2023]Hans Christian Andersen	安徒生；汉斯·克里斯蒂安·安徒生；安徒生的[[英文]]名
+[Thu Dec 21 23:51:03 2023]Hope Project	希望工程；关于希望工程的[[英文]]文章；希望项目
+[Thu Dec 21 23:51:03 2023]ICU	n. ICU是[[英文]]Intensive Care Unit的缩写，意为重症加强护理病房。
+[Thu Dec 21 23:51:03 2023]Chinese Academy of Sciences	n. 中国科学院 中科院；中科院的[[英文]]名称；中国科学院化学研究所
+[Thu Dec 21 23:51:03 2023]China Daily	n. 中国日报; <中国日报>是中华人民共和国成立以来创办的第一份也是目前唯一的一份全国性[[英文]]日报。中国日报以权威、客观、迅捷的报道; 向国内外读者介绍了我国政治、经济、文化、社会等各方面的讯息。<中国日报>是目前我国被境外各大通讯社、报刊、电台、电视台转载最高的媒体; 在全球信息交流中代表中国的声音
+[Thu Dec 21 23:51:25 2023]INFO: search: [[english]]
+[Thu Dec 21 23:51:25 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 23:51:25 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 23:51:25 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 23:51:25 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 23:51:25 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 23:51:25 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 23:51:25 2023]English immersion	英式沉浸
+[Thu Dec 21 23:51:25 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 23:51:25 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 23:51:25 2023]Englishman	n. 英国人
+[Thu Dec 21 23:51:43 2023]INFO: search: [[hello]]
+[Thu Dec 21 23:51:43 2023]hello	n. 表示问候， 惊奇或唤起注意时的用语int. 喂；哈罗
+[Thu Dec 21 23:51:43 2023]INFO: search: [[world]]
+[Thu Dec 21 23:51:43 2023]world	n. 世界；领域；世俗；全人类；物质生活
+[Thu Dec 21 23:51:57 2023]INFO: search: [[hello]]
+[Thu Dec 21 23:51:57 2023]hello	n. 表示问候， 惊奇或唤起注意时的用语int. 喂；哈罗
+[Thu Dec 21 23:51:57 2023]INFO: search: [[world]]
+[Thu Dec 21 23:51:57 2023]world	n. 世界；领域；世俗；全人类；物质生活
+[Thu Dec 21 23:52:25 2023]INFO: search: [[english]]
+[Thu Dec 21 23:52:25 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 23:52:25 2023]English as a foreign language	英语作为外语；对外英语；英语课程
+[Thu Dec 21 23:52:25 2023]English as a second language	英语作为第二语言；英语强化课程；英语外语教学
+[Thu Dec 21 23:52:25 2023]English book	英语书；英文书；数学书
+[Thu Dec 21 23:52:25 2023]English Channel	na. 英吉利海峡 英伦海峡；英国海峡；外语闲聊频道
+[Thu Dec 21 23:52:25 2023]English class	英语课；英文课；英语课程
+[Thu Dec 21 23:52:25 2023]English immersion	英式沉浸
+[Thu Dec 21 23:52:25 2023]English-Chinese dictionary	英汉字典；辞典；氏英字典
+[Thu Dec 21 23:52:25 2023]English-language	英语；英国语文；英语语言
+[Thu Dec 21 23:52:25 2023]Englishman	n. 英国人
+[Thu Dec 21 23:52:42 2023]INFO: search: [[中文]]
+[Thu Dec 21 23:52:42 2023]as a last resource	un. 资料；无路可走 作为最后一着；相关词组；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:52:42 2023]Chinese	n. [[中文]]，汉语；中国人adj. 中国的，中国人的；中国话的
+[Thu Dec 21 23:52:42 2023]Chinese book	语文书；[[中文]]书；英语书
+[Thu Dec 21 23:52:42 2023]Chinese character	n. 汉字 [[中文]]汉字；汉字字符；中国的汉字
+[Thu Dec 21 23:52:42 2023]galaxy	n. 银河；[天] 星系；银河系；一群显赫的人n. 三星智能手机品牌 2015年三星中国公布Galaxy的[[中文]]名称为“盖乐世”（Galaxy）[ 复数galaxies ]
+[Thu Dec 21 23:52:42 2023]break prison	na. 越狱 在线翻译；的精选例句；的[[中文]]翻译
+[Thu Dec 21 23:52:42 2023]as a function of	一个[[中文]]词语或英文单词
+[Thu Dec 21 23:52:42 2023]at your fingertips	唾手可得的；手边的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:52:42 2023]West Indian manatee	《英文msh词典》West Indian Manatee[同义词] West Indian Manatee[主题词] Trichechus manatus[[[中文]]释义] 西印度海牛[英文释义] Member of the genus Trichechus inhabiting the coast and coastal rivers of the southeastern United States as well as the West Indies and the adjacent mainland from Vera Cruz,Mexico to northern South America. (From Scott,Concise Encyclopedia Biology,1996)
+[Thu Dec 21 23:52:42 2023]a succession of	det. 一连串的 一系列；一系列的；一个[[中文]]词语或英文单词
+[Thu Dec 21 23:52:42 2023]INFO: search: [[english]]
+[Thu Dec 21 23:52:42 2023]English	n. 英语；英国人；英文；英格兰人adj. 英国人的；英国的；英文的vt. 把…译成英语
+[Thu Dec 21 23:57:18 2023]INFO: ----------search: [[vector]]----------
+[Thu Dec 21 23:57:18 2023]vector	n. 矢量；带菌者；航线vt. 用无线电导航
+[Thu Dec 21 23:57:18 2023]vectoring	n. 引导，定向，定航向
+[Fri Dec 22 00:01:47 2023]----------search: [[tor]]----------
+[Fri Dec 22 00:01:47 2023]tor	n. [地理] 石山；[地理] 突岩
+[Fri Dec 22 00:01:47 2023]torch	n. 火把，火炬；手电筒；启发之物vt. 用火炬点燃vi. 像火炬一样燃烧
+[Fri Dec 22 00:01:47 2023]torch relay	火炬接力；火炬传递；奥运火炬传递
+[Fri Dec 22 00:01:47 2023]torchlight	n. 火炬之光；手电筒的光
+[Fri Dec 22 00:01:47 2023]tore	vt. 撕开（tear的过去式）
+[Fri Dec 22 00:01:47 2023]toreador	n. 斗牛士（西班牙）
+[Fri Dec 22 00:01:47 2023]torero	n. （尤指徒步的）斗牛士
+[Fri Dec 22 00:01:47 2023]torment	n. 痛苦，苦恼；痛苦的根源vt. 折磨，使痛苦；纠缠，作弄
+[Fri Dec 22 00:01:47 2023]tormentingly	折腾的
+[Fri Dec 22 00:01:47 2023]tormina	n. 绞痛
+[Fri Dec 22 00:01:50 2023]----------search: [[vector]]----------
+[Fri Dec 22 00:01:50 2023]vector	n. 矢量；带菌者；航线vt. 用无线电导航
+[Fri Dec 22 00:01:50 2023]vectoring	n. 引导，定向，定航向
+[Fri Dec 22 00:02:27 2023]----------search: [[中国]]----------
+[Fri Dec 22 00:02:27 2023]China Daily	n. [[中国]]日报; <中国日报>是中华人民共和国成立以来创办的第一份也是目前唯一的一份全国性英文日报。中国日报以权威、客观、迅捷的报道; 向国内外读者介绍了我国政治、经济、文化、社会等各方面的讯息。<中国日报>是目前我国被境外各大通讯社、报刊、电台、电视台转载最高的媒体; 在全球信息交流中代表中国的声音
+[Fri Dec 22 00:02:27 2023]CBA	abbr. [[中国]]篮球协会（China Basketball Association）；成本效益分析（Cost-Benefit Analysis）
+[Fri Dec 22 00:02:27 2023]CCTV	abbr. 闭路电视（Closed Circuit Television）；[[中国]]中央电视台（China Central Television）
+[Fri Dec 22 00:02:27 2023]Cali	abbr. [[中国]]照明电器协会（China Association of Lighting Industry）
+[Fri Dec 22 00:02:27 2023]China hand	[[中国]]通；中国手；一位中国通的自述
+[Fri Dec 22 00:02:27 2023]Chinese	n. 中文，汉语；[[中国]]人adj. 中国的，中国人的；中国话的
+[Fri Dec 22 00:02:27 2023]China Welfare Institute	n. [[中国]]福利会 中国福利协会；中国福利基金会
+[Fri Dec 22 00:02:27 2023]china	n. [[中国]]n. china，瓷器adj. 中国的；中国制造的adj. china，瓷制的
+[Fri Dec 22 00:02:27 2023]Chinatown	n. 唐人街，[[中国]]城
+[Fri Dec 22 00:02:27 2023]Book of Odes	《诗经》([[中国]]最早的诗歌总集；公元前6世纪由孔子编纂而成)[汉语名称 Shik Ching，Shih King]
+[Fri Dec 22 00:05:08 2023]----------search: [[hi]]----------
+[Fri Dec 22 00:05:08 2023]hi	int. 嗨！（表示问候或用以唤起注意）
+[Fri Dec 22 00:05:08 2023]----------search: [[hello]]----------
+[Fri Dec 22 00:05:08 2023]hello	n. 表示问候， 惊奇或唤起注意时的用语int. 喂；哈罗
+[Fri Dec 22 00:05:08 2023]----------search: [[world]]----------
+[Fri Dec 22 00:05:08 2023]world	n. 世界；领域；世俗；全人类；物质生活
+[Fri Dec 22 00:05:08 2023]----------search: [[钟声]]----------
+[Fri Dec 22 00:05:08 2023]bell	n. 铃，钟；[[钟声]]，铃声；钟状物vt. 装钟于，系铃于vi. 鸣钟；成钟状鼓起
+[Fri Dec 22 00:05:08 2023]bell	n. 铃，钟；[[钟声]]，铃声；钟状物vt. 装钟于，系铃于vi. 鸣钟；成钟状鼓起
+[Fri Dec 22 00:05:08 2023]chime	n. [[钟声]]；一套发谐音的钟；和谐vi. 鸣响；和谐vt. 打钟报时；敲出和谐的声音
+[Fri Dec 22 00:05:08 2023]knell	n. 丧[[钟声]]；凶兆；哀伤的声音vi. 鸣丧钟；预报凶兆；发出哀伤之声vt. 敲丧钟召集
+[Fri Dec 22 00:05:08 2023]peal	n. [[钟声]]，钟乐；隆隆声，响亮持久的声音；编钟vt. 大声发出；使鸣响vi. 大声鸣响；震响
+[Fri Dec 22 00:05:08 2023]ring	n. 戒指；铃声，[[钟声]]；拳击场；环形物vi. 按铃；敲钟；回响；成环形vt. 按铃；包围；敲钟；套住
+[Fri Dec 22 00:05:08 2023]toll	vt. 征收；敲钟n. 通行费；代价；[[钟声]]；伤亡人数vi. 鸣钟；征税
+[Fri Dec 22 00:19:43 2023]----------search: [[海拔]]----------
+[Fri Dec 22 00:19:43 2023]... above sea level	na. [[海拔]]
+[Fri Dec 22 00:19:43 2023]high-altitude	adj. 高空的；高[[海拔]]的
+[Fri Dec 22 00:19:43 2023]sea level	n. 海平面 海面；[[海拔]]；平均海面
+[Fri Dec 22 00:19:43 2023]elevation	n. 高地；[[海拔]]；提高；崇高；正面图
+[Fri Dec 22 00:19:43 2023]altitude	n. 高地；高度；[数] 顶垂线；（等级和地位等的）高级；[[海拔]]
+[Fri Dec 22 00:19:43 2023]ASL	abbr. [[海拔]]高度（Above Sea Level）；大气科学实验室（Atmospheric Sciences Laboratory）；美国手势语言（American sign language）

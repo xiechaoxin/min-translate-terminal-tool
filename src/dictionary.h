@@ -19,8 +19,15 @@ struct en_zh {
 	en_zh(std::string en, std::string zh) : en(en), zh(zh) {}
 };
 
+struct WordEntry {
+	std::string key;
+	int weight;
+};
+
 extern std::unordered_map<std::string, en_zh> dictionary;
 
+typedef std::unordered_map<std::string, std::vector<WordEntry>> InvertedIndex;
+extern InvertedIndex invered_index;
 Trie* init_db();
 
 #endif /* _DICTIONARY_H_ */

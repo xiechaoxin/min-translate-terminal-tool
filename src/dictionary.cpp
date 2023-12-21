@@ -4,8 +4,26 @@
 #include "config.h"
 
 std::unordered_map<std::string, en_zh> dictionary;
+InvertedIndex invered_index; // u_map<str, vec<WordEntry>>
 
-Trie *init_db() {
+void buildInvertedIndex() {
+	std::ifstream file(INVERTED_DB_PATH);
+	std::string line;
+
+	while (std::getline(file, line)) {
+		std::istringstream iss(line);
+		std::string key;
+		std::getline(iss, key, '\t');  // 读取键（直到遇到第一个制表符）
+
+		std::string word;
+		int weight = TOP_WEIGHT;  // 初始权重，根据需要调整
+		while (std::getline(iss, word, '\t')) {  // 读取单词
+			invered_index[word].push_back({key, weight--});
+		}
+	}
+}
+
+Trie *buildDictionary() {
 	std::string line;
 	std::ifstream file(DB_PATH);
 
@@ -44,4 +62,9 @@ Trie *init_db() {
 	// for (const auto &pair : dictionary) {
 	// 	std::cout << pair.first << " 对应的中文是: " << pair.second << std::endl;
 	// }
+}
+
+Trie *init_db() {
+	buildInvertedIndex();
+	return buildDictionary();
 }

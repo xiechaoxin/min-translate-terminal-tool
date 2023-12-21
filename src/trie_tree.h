@@ -25,7 +25,6 @@ private:
 
 public:
 	// 模糊搜索函数
-
 	std::vector<std::string> fuzzySearch(const std::string &word);
 
 public:

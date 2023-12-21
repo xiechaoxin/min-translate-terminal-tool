@@ -6,7 +6,6 @@
 #include "config.h"
 #include <sstream>
 
-
 Logger::Logger(const std::string &fileName) {
 	logFile.open(fileName, std::ios::app);	// 打开文件进行追加写入
 	if (!logFile.is_open()) {
@@ -38,28 +37,24 @@ std::string getLevelStr(Logger::Level level) {
 		default:
 			return "UNKNOWN";
 	}
-
 }
 
-std::string Logger::logTranslateFormat(const std::string &en,
-									   const std::string &zh) {
+std::string Logger::logTranslateFormat(const std::string &en, const std::string &zh) {
 	std::ostringstream oss;
 	oss << std::left << en << "\t" << zh << "\n";
 
-	std::string logMessage = "[" + GetCurrentTime() + "]"+ oss.str();
+	std::string logMessage = "[" + GetCurrentTime() + "]" + oss.str();
 
 	return logMessage;
 }
 
 std::string Logger::logTranslateFormat(const std::string &msg, Logger::Level level) {
-	std::string logMessage = "[" + GetCurrentTime() + "]"+ getLevelStr(level) + ": " + msg;
+	std::string logMessage = '[' + GetCurrentTime() + ']' + getLevelStr(level) + ": " + msg + '\n';
 	return logMessage;
 }
 
-
 void Logger::logTemplate(const std::string &message, Logger::Level level) {
-	std::string  logMessage = logTranslateFormat(message, level);
-
+	std::string logMessage = logTranslateFormat(message, level);
 
 	// 打印到控制台
 	// std::cout << logMessage;
@@ -94,5 +89,11 @@ void Logger::error(const std::string &en, const std::string &zh) {
 	std::string logMsg = logTranslateFormat(en, zh);
 	if (logFile.is_open()) {
 		logFile << logMsg;
+	}
+}
+void Logger::msg(const std::string &line) {
+	if (logFile.is_open()) {
+		std::string msg = '[' + GetCurrentTime() + ']' + line + '\n';
+		logFile << msg;
 	}
 }
