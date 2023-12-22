@@ -55,3 +55,6 @@ u_map<en_key:str, vec<struct{en_key:str, weight:int>> InvertedIndex;
 # 使用到的第三方库
 
 ~~1. jieba: 分词~~
+
+# log
+[2023-12-22]改成使用thulac分词, 重新生成inverted-index.txt

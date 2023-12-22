@@ -689,3 +689,101 @@
 [Fri Dec 22 00:19:43 2023]elevation	n. 高地；[[海拔]]；提高；崇高；正面图
 [Fri Dec 22 00:19:43 2023]altitude	n. 高地；高度；[数] 顶垂线；（等级和地位等的）高级；[[海拔]]
 [Fri Dec 22 00:19:43 2023]ASL	abbr. [[海拔]]高度（Above Sea Level）；大气科学实验室（Atmospheric Sciences Laboratory）；美国手势语言（American sign language）
+[Fri Dec 22 13:58:09 2023]----------search: [[test]]----------
+[Fri Dec 22 13:58:09 2023]test	n. 试验；检验vt. 试验；测试vi. 试验；测试
+[Fri Dec 22 13:58:09 2023]test driver	un. 测试驱动程序 试车驾驶员；试车手；测试驱动器
+[Fri Dec 22 13:58:09 2023]test out	na. 同“[[test]]” 考验；试验；测试
+[Fri Dec 22 13:58:09 2023]test paper	na. 试纸；测验题目纸；鉴定笔迹用的文件 考卷；测验试卷；可答在试卷
+[Fri Dec 22 13:58:09 2023]test the waters	市场测试；试水；试探
+[Fri Dec 22 13:58:09 2023]test tube	n. 试管 小试管；硬质试管；试验用了很多试管
+[Fri Dec 22 13:58:09 2023]test tube clamp	un. 试管夹 木试管夹；塑胶试管夹
+[Fri Dec 22 13:58:09 2023]test tube rack	un. 试管架 试管机架；经济型试管架
+[Fri Dec 22 13:58:09 2023]testable	adj. 可试验的；有资格立遗嘱的；可根据遗嘱处理的；有资格作证人的
+[Fri Dec 22 13:58:09 2023]testament	n. [法] 遗嘱；圣约；确实的证明
+[Fri Dec 22 13:58:21 2023]----------search: [[但是]]----------
+[Fri Dec 22 13:58:21 2023]although	conj. 尽管；虽然；[[但是]]；然而
+[Fri Dec 22 13:58:21 2023]and	conj. 和，与；就；而且；[[但是]]；然后
+[Fri Dec 22 13:58:21 2023]and yet	na. 但 然而；可是；[[但是]]
+[Fri Dec 22 13:58:21 2023]nonetheless	adv. 尽管如此，[[但是]]
+[Fri Dec 22 13:58:21 2023]but then	na. [[但是]]；但是另一方面 不过；但另一方面；然而
+[Fri Dec 22 13:58:21 2023]but	conj. [[但是]]；而是；然而adv. 仅仅，只prep. 除…以外
+[Fri Dec 22 13:58:21 2023]exclude ... from	把…排斥于…之外；把……排除在外；同上[[但是]]使用档案
+[Fri Dec 22 13:58:21 2023]exclude from	把…排斥于…之外；把……排除在外；同上[[但是]]使用档案
+[Fri Dec 22 13:58:21 2023]exclude sb. from	把…排斥于…之外；把……排除在外；同上[[但是]]使用档案
+[Fri Dec 22 13:58:21 2023]but then again	[[但是]]一样的是；但在那时；话说回来
+[Fri Dec 22 13:58:21 2023]----------search: [[当时]]----------
+[Fri Dec 22 13:58:21 2023]at that time	adv. 在那时 在[[当时]]；那时候；在那个时候
+[Fri Dec 22 13:58:21 2023]at the time	[[当时]]；在那时；在那个时候
+[Fri Dec 22 13:58:21 2023]as it happens	na. 碰巧 碰巧来到；恰好碰巧；[[当时]]发生的
+[Fri Dec 22 13:58:21 2023]then	conj. 然后，[[当时]]n. 那时adv. 然后；那么；于是；当时；此外
+[Fri Dec 22 13:58:21 2023]in due course	na. 及时；顺次；及时地；到一定时候 在适当的时候；在适[[当时]]；在适当时机
+[Fri Dec 22 13:58:21 2023]in those days	na. 那时；[[当时]]；在当时；在那时候 当年；在那些日子里；那年头
+[Fri Dec 22 13:58:21 2023]temporal	n. 世间万物；暂存的事物adj. 暂时的；[[当时]]的；现世的
+[Fri Dec 22 13:58:21 2023]of the day	na. [[当时]]的；现在的(问题等) 当代的；等了一天；当天最吸引人之事物
+[Fri Dec 22 13:58:21 2023]high time	na. 并不为晚的时候；不早不晚恰[[当时]]；兴高采烈的时候 正是时候；快乐时光；亢奋时刻
+[Fri Dec 22 13:58:21 2023]when	conj. 考虑到；既然；当…时；在…时；如果n. 时间，时候；日期；场合adv. 什么时候，何时；（用于时间的表达方式之后）在那时；其时；[[当时]]pron. 那时；什么时侯
+[Fri Dec 22 14:00:42 2023]----------search: [[字符]]----------
+[Fri Dec 22 14:00:42 2023]Chinese character	n. 汉字 中文汉字；汉字[[字符]]；中国的汉字
+[Fri Dec 22 14:00:42 2023]character	n. 性格，品质；特性；角色；[计] [[字符]]vt. 印，刻；使具有特征
+[Fri Dec 22 14:00:42 2023]glyph	n. 字形；图象[[字符]]；纵沟纹
+[Fri Dec 22 14:00:42 2023]numerical symbols	un. 数字标记 表示数字的符号；数[[字符]]号
+[Fri Dec 22 14:00:42 2023]esc.	abbr. escadrille；escape；escort
+[Fri Dec 22 14:00:42 2023]hyphenate	n. 归化的美国公民vt. 用连[[字符]]号连接
+[Fri Dec 22 14:00:42 2023]leading character	un. 前导[[字符]] 主人公；主角；主要角色
+[Fri Dec 22 14:00:42 2023]alphabetic character	un. 字母符号；附加符号 文字[[字符]]；字母字符；表英文字母
+[Fri Dec 22 14:00:42 2023]MSc	abbr. 理科硕士（master of science）；（美国）载人航天中心（manned spacecraft center）；最高有效[[字符]]
+[Fri Dec 22 14:01:03 2023]----------search: [[字符]]----------
+[Fri Dec 22 14:01:03 2023]Chinese character	n. 汉字 中文汉字；汉字[[字符]]；中国的汉字
+[Fri Dec 22 14:01:03 2023]character	n. 性格，品质；特性；角色；[计] [[字符]]vt. 印，刻；使具有特征
+[Fri Dec 22 14:01:03 2023]glyph	n. 字形；图象[[字符]]；纵沟纹
+[Fri Dec 22 14:01:03 2023]numerical symbols	un. 数字标记 表示数字的符号；数[[字符]]号
+[Fri Dec 22 14:01:03 2023]esc.	abbr. escadrille；escape；escort
+[Fri Dec 22 14:01:03 2023]hyphenate	n. 归化的美国公民vt. 用连[[字符]]号连接
+[Fri Dec 22 14:01:03 2023]leading character	un. 前导[[字符]] 主人公；主角；主要角色
+[Fri Dec 22 14:01:03 2023]alphabetic character	un. 字母符号；附加符号 文字[[字符]]；字母字符；表英文字母
+[Fri Dec 22 14:01:03 2023]MSc	abbr. 理科硕士（master of science）；（美国）载人航天中心（manned spacecraft center）；最高有效[[字符]]
+[Fri Dec 22 16:03:14 2023]2	字典中未找到单词
+[Fri Dec 22 16:03:14 2023]----------search: [[d]]----------
+[Fri Dec 22 16:03:14 2023]d	n. 字母D
+[Fri Dec 22 16:03:22 2023]2	字典中未找到单词
+[Fri Dec 22 16:03:22 2023]----------search: [[d]]----------
+[Fri Dec 22 16:03:22 2023]d	n. 字母D
+[Fri Dec 22 16:03:32 2023]2	字典中未找到单词
+[Fri Dec 22 16:03:32 2023]----------search: [[d]]----------
+[Fri Dec 22 16:03:32 2023]d	n. 字母D
+[Fri Dec 22 16:03:39 2023]----------search: [[第二]]----------
+[Fri Dec 22 16:03:39 2023]2nd	[[第二]](second)
+[Fri Dec 22 16:03:39 2023]Rosie the Riveter	铆工露斯（[[第二]]次世界大战时美国女工的统称）
+[Fri Dec 22 16:03:39 2023]Newton's second law	牛顿[[第二]]定律；牛顿第二运动定律
+[Fri Dec 22 16:03:39 2023]TESL	abbr. 作为[[第二]]种语言的英语教学（Teaching English as Second Language）；测试仪器和测试标准实验室（Test Equipment and Standards Laboratory）
+[Fri Dec 22 16:03:39 2023]v.	n. 英语字母中的[[第二]]十二个字母abbr. 钒（vanadium）；伏特（volt）
+[Fri Dec 22 16:03:39 2023]U	n. 英语字母中的[[第二]]十一个字母；铀（化学元素）
+[Fri Dec 22 16:03:39 2023]English as a second language	英语作为[[第二]]语言；英语强化课程；英语外语教学
+[Fri Dec 22 16:03:39 2023]B	n. 乙等（成绩）；英语字母的[[第二]]个字母
+[Fri Dec 22 16:03:39 2023]Mother's Day	na. (美国和加拿大的)母亲节 [[第二]]个星期日母亲节；月的第二个星期日；月第二个星期日
+[Fri Dec 22 16:03:39 2023]silver	n. 银；银器；银币；银质奖章；餐具；银灰色adj. 银的；含银的；有银色光泽的；口才流利的；[[第二]]十五周年的婚姻vt. 镀银；使有银色光泽vi. 变成银色
+[Fri Dec 22 16:10:02 2023]----------search: [[字符串]]----------
+[Fri Dec 22 16:10:02 2023]string	n. 线，弦，细绳；一串，一行；[[字符串]]
+[Fri Dec 22 16:11:21 2023]2	字典中未找到单词
+[Fri Dec 22 16:11:21 2023]----------search: [[nd]]----------
+[Fri Dec 22 16:11:21 2023]Nd	abbr. 国债（National Debt）；国防（National Defence）；核装置（Nuclear Device）
+[Fri Dec 22 16:11:55 2023]----------search: [[三维]]----------
+[Fri Dec 22 16:11:55 2023]three-D	n. [[三维]], 立体电影
+[Fri Dec 22 16:11:55 2023]3-D	abbr. [[三维]]的（three dimensional）
+[Fri Dec 22 16:11:55 2023]voxel	n. [[三维]]像素
+[Fri Dec 22 16:11:55 2023]three dimensional image	n.[[三维]]象,立体象
+[Fri Dec 22 16:11:55 2023]IMAX	n. [[三维]]遐想（3D科幻电影）abbr. 图像最大化（Image Maximum）
+[Fri Dec 22 16:11:55 2023]three-dimensional	adj. [[三维]]的；立体的；真实的
+[Fri Dec 22 16:11:55 2023]three dimensional	un. [[三维]]的 立体的；三次元的；三度空间
+[Fri Dec 22 16:11:55 2023]three-dimensional figure	立体图形；[[三维]]图形
+[Fri Dec 22 16:15:44 2023]----------search: [[抗争]]----------
+[Fri Dec 22 16:15:44 2023]strive with	v. 与…[[抗争]] 与…争夺
+[Fri Dec 22 16:15:44 2023]at odds with ...	adj. 相[[抗争]]于
+[Fri Dec 22 16:15:44 2023]at odds with sb.	adj. 相[[抗争]]于
+[Fri Dec 22 16:15:44 2023]compete with	v. 竞争 与……竞争；与…[[抗争]]；高下
+[Fri Dec 22 16:15:44 2023]strive	vi. 努力；奋斗；[[抗争]]
+[Fri Dec 22 16:15:44 2023]oppose	vt. 反对；对抗，[[抗争]]vi. 反对
+[Fri Dec 22 16:15:44 2023]duel	n. 决斗；斗争，[[抗争]]vi. 决斗
+[Fri Dec 22 16:15:44 2023]contend with sth.	与（某人）竞争; 与（某事物）[[抗争]]，苦于应付; 争执
+[Fri Dec 22 16:15:44 2023]contend with	与（某人）竞争; 与（某事物）[[抗争]]，苦于应付; 争执
+[Fri Dec 22 16:15:44 2023]at odds with	adj. 相[[抗争]]于 与…不一致；与…不和；差异
