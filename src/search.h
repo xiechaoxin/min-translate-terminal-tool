@@ -13,7 +13,7 @@
 /// @return 让word1==word2所需的最少编辑距离
 int minDistance(const std::string &word1, const std::string &word2);
 
-void processInput(Trie *trie, std::string &searchWord);
-void processInput(Trie *trie, std::vector<std::string> &searchWord);
+void processInput(Trie *trie, const std::string &searchWord) ;
+void processInput(Trie *trie, const std::vector<std::string> &searchWords) ;
 
 #endif /* _SEARCH_H_ */

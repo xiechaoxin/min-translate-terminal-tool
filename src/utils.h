@@ -25,6 +25,9 @@
 #define LOG_CYAN(x) (ANSI_COLOR_CYAN x ANSI_COLOR_RESET)
 
 namespace utils {
+
+void copyToClipboard(const std::string &text);
+
 bool is_ascii(const std::string &word);
 
 std::string removePunctuation(const std::string &word);

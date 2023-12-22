@@ -27,7 +27,7 @@ struct WordEntry {
 extern std::unordered_map<std::string, en_zh> dictionary;
 
 typedef std::unordered_map<std::string, std::vector<WordEntry>> InvertedIndex;
-extern InvertedIndex invered_index;
+extern InvertedIndex invertedIndex;
 Trie* init_db();
 
 #endif /* _DICTIONARY_H_ */

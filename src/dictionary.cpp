@@ -4,7 +4,7 @@
 #include "config.h"
 
 std::unordered_map<std::string, en_zh> dictionary;
-InvertedIndex invered_index; // u_map<str, vec<WordEntry>>
+InvertedIndex invertedIndex; // u_map<str, vec<WordEntry>>
 
 void buildInvertedIndex() {
 	std::ifstream file(INVERTED_DB_PATH);
@@ -18,7 +18,7 @@ void buildInvertedIndex() {
 		std::string word;
 		int weight = TOP_WEIGHT;  // 初始权重，根据需要调整
 		while (std::getline(iss, word, '\t')) {  // 读取单词
-			invered_index[word].push_back({key, weight--});
+			invertedIndex[word].push_back({key, weight--});
 		}
 	}
 }

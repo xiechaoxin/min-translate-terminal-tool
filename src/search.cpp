@@ -51,86 +51,50 @@ std::vector<std::string> sortByWeight(std::vector<WordEntry> &res) {
 	return res_print;
 }
 
-void processInput(Trie *trie, std::string &searchWord) {
-	std::string key;
-	if (utils::is_ascii(searchWord)) {  // 查找字典中的英文单词
-		if (CASE_SENSITIVE) {
-			key = searchWord;
-		} else {
-			key = utils::to_lowers(searchWord);
-		}
-		std::vector<std::string> res = trie->fuzzySearch(key);
-		if (res.empty()) {
-			std::cout << "字典中未找到单词 " << key << std::endl;
-			Logger logger(LOG_PATH);
-			logger.error(key, "字典中未找到单词");
-			return;
-		}
-		utils::printDictionary(res);
-		utils::loggerSearch(res, searchWord);
-	} else {  // 查找字典中的中文解释to_lower
-		std::vector<WordEntry> res;
-		std::vector<std::string> res_print;
-		try {
-			res = invered_index.at(searchWord);
-		} catch (const std::out_of_range &e) {
-			std::cout << "\t字典中未找到" << searchWord << "中文解释"
-					  << "\n";
-			return;
-		}
-		if (res.empty()) {
-			std::cout << "\t字典中未找到" << searchWord << "中文解释"
-					  << "\n";
-			return;
-		}
-		if (res.size() > CANDIDATES_NUMBER) {
-			res.resize(CANDIDATES_NUMBER);
-		}
-		res_print = sortByWeight(res);
-		utils::highlightPrintDictionary(res_print, searchWord);
-		utils::loggerSearch(res_print, searchWord);
+void processEnglishInput(Trie *trie, const std::string &searchWord) {
+	std::string key = CASE_SENSITIVE ? searchWord : utils::to_lowers(searchWord);
+	std::vector<std::string> res = trie->fuzzySearch(key);
+	if (res.empty()) {
+		std::cout << "字典中未找到单词 " << key << std::endl;
+		Logger logger(LOG_PATH);
+		logger.error(key, "字典中未找到单词");
+		return;
+	}
+	utils::printDictionary(res);
+	utils::loggerSearch(res, searchWord);
+}
+
+void processChineseInput(const std::string &searchWord) {
+	std::vector<WordEntry> res;
+	try {
+		res = invertedIndex.at(searchWord);
+	} catch (const std::out_of_range &e) {
+		std::cout << "\t字典中未找到" << searchWord << "中文解释\n";
+		return;
+	}
+	if (res.empty()) {
+		std::cout << "\t字典中未找到" << searchWord << "中文解释\n";
+		return;
+	}
+	if (res.size() > CANDIDATES_NUMBER) {
+		res.resize(CANDIDATES_NUMBER);
+	}
+	std::vector<std::string> resPrint = sortByWeight(res);
+	utils::highlightPrintDictionary(resPrint, searchWord);
+	utils::loggerSearch(resPrint, searchWord);
+}
+
+void processInput(Trie *trie, const std::string &searchWord) {
+	if (utils::is_ascii(searchWord)) {
+		processEnglishInput(trie, searchWord);
+	} else {
+		processChineseInput(searchWord);
 	}
 }
 
-void processInput(Trie *trie, std::vector<std::string> &searchWords) {
-	for (auto &searchWord : searchWords) {
-		std::string key;
-		if (utils::is_ascii(searchWord)) {  // 查找字典中的英文单词
-			if (CASE_SENSITIVE) {
-				key = searchWord;
-			} else {
-				key = utils::to_lowers(searchWord);
-			}
-			bool exist = trie->search(key);
-			if (!exist) {
-				std::cout << key << "\t字典中未找到单词 " << std::endl;
-				Logger logger(LOG_PATH);
-				logger.error(key, "字典中未找到单词");
-				continue;
-			}
-			utils::printDictionary(searchWord);
-			utils::loggerSearch(searchWord, searchWord);
-		} else {  // 查找字典中的中文解释
-			std::vector<WordEntry> res;
-			std::vector<std::string> res_print;
-			try {
-				res = invered_index.at(searchWord);
-			} catch (const std::out_of_range &e) {
-				std::cout << "\t字典中未找到" << searchWord << "中文解释"
-						  << "\n";
-				continue;
-			}
-			if (res.empty()) {
-				std::cout << "\t字典中未找到" << searchWord << "中文解释"
-						  << "\n";
-				continue;
-			}
-			if (res.size() > CANDIDATES_NUMBER) {
-				res.resize(CANDIDATES_NUMBER);
-			}
-			res_print = sortByWeight(res);
-			utils::highlightPrintDictionary(res_print, searchWord);
-			utils::loggerSearch(res_print, searchWord);
-		}
+void processInput(Trie *trie, const std::vector<std::string> &searchWords) {
+	for (const auto &searchWord : searchWords) {
+		processInput(trie, searchWord);
 	}
 }
+

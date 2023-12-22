@@ -148,6 +148,29 @@ std::vector<std::string> utils::splitWord(const std::string &word) {
 
 	return result;
 }
+void utils::copyToClipboard(const std::string &s) {
+#if defined(_WIN32) || defined(_WIN64)
+#include <windows.h>
+	OpenClipboard(0);
+	EmptyClipboard();
+	HGLOBAL hg = GlobalAlloc(GMEM_MOVEABLE, s.size() + 1);
+	if (!hg) {
+		CloseClipboard();
+		return;
+	}
+	memcpy(GlobalLock(hg), s.c_str(), s.size() + 1);
+	GlobalUnlock(hg);
+	SetClipboardData(CF_TEXT, hg);
+	CloseClipboard();
+	GlobalFree(hg);
+#elif defined(__APPLE__)
+	std::string command = "echo '" + s + "' | pbcopy";
+	system(command.c_str());
+#elif defined(__linux__)
+	std::string command = "echo '" + s + "' | xclip -selection clipboard";
+	system(command.c_str());
+#endif
+}
 
 template <typename T>
 void printVector(const std::vector<T> &vec) {
