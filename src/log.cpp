@@ -19,11 +19,18 @@ Logger::~Logger() {
 }
 
 std::string Logger::GetCurrentTime() {
+	// 获取当前时间
 	auto now = std::chrono::system_clock::now();
 	std::time_t now_time = std::chrono::system_clock::to_time_t(now);
-	std::string timeStr = std::ctime(&now_time);
-	timeStr.pop_back();	 // 移除换行符
-	return timeStr;
+
+	// 将时间转换为 tm 结构
+	std::tm *ptm = std::localtime(&now_time);
+
+	// 使用 stringstream 进行格式化
+	std::stringstream ss;
+	ss << std::put_time(ptm, "%Y-%m-%d %H:%M:%S");
+
+	return ss.str();
 }
 
 std::string getLevelStr(Logger::Level level) {
