@@ -47,28 +47,16 @@ void utils::loggerSearch(const std::vector<std::string> &res, const std::string 
 	}
 }
 
-// void utils::loggerSearch(const std::vector<std::string> &res, const std::vector<std::string> &searchKeys) {
-// 	Logger logger(LOG_PATH);
-// 	int max_length = 0;
-// 	for (const auto &item : res) {
-// 		max_length = std::max(max_length, static_cast<int>(item.length()));
-// 	}
-// 	for (const auto &item : res) {
-// 		std::string en = dictionary.at(item).en;
-// 		std::string zh = dictionary.at(item).zh;
-// 		zh = utils::highlightTxt(zh, searchKey);
-// 		logger.info(en, zh);
-// 	}
-// }
-
 void utils::printDictionary(const std::string &key) {
+	int count = 0;
 	std::string en = dictionary.at(key).en;
 	std::string zh = dictionary.at(key).zh;
-	printf("%s\t%s\n", en.c_str(), zh.c_str());
+	printf("%2d %s\t%s\n", count++, en.c_str(), zh.c_str());
 }
 
 void utils::printDictionary(const std::vector<std::string> &vec) {
 	int max_length = 0;
+	int count = 0;
 	for (const auto &item : vec) {
 		max_length = std::max(max_length, static_cast<int>(item.length()));
 	}
@@ -76,9 +64,7 @@ void utils::printDictionary(const std::vector<std::string> &vec) {
 		std::string en = dictionary.at(item).en;
 		std::string zh = dictionary.at(item).zh;
 
-		printf("%-*s\t%s\n", max_length, en.c_str(), zh.c_str());
-
-		// logger.info(en, zh);
+		printf("%2d %-*s\t%s\n", count++, max_length, en.c_str(), zh.c_str());
 	}
 	printf("-------------------------------------------------------------\n");
 }
@@ -107,17 +93,19 @@ std::string utils::highlightTxt(const std::string &text, const std::string &txtT
 }
 
 void utils::highlightPrintDictionary(const std::string &key, const std::string &needHighlight) {
+	int count = 0;
 	std::string en = dictionary.at(key).en;
 	std::string zh = dictionary.at(key).zh;
 	std::string resPrint;
 	std::stringstream txtStream;
 	txtStream << en << '\t' << zh;
 	resPrint = highlightTxt(txtStream.str(), needHighlight);
-	std::cout << resPrint << std::endl;
+	std::cout << count++ << " " << resPrint << '\n';
 }
 
 void utils::highlightPrintDictionary(const std::vector<std::string> &keys, const std::string &needHighlight) {
 	int max_length = 0;
+	int count = 0;
 	for (const auto &item : keys) {
 		max_length = std::max(max_length, static_cast<int>(item.length()));
 	}
@@ -130,7 +118,7 @@ void utils::highlightPrintDictionary(const std::vector<std::string> &keys, const
 		// printf("%-*s\t%s\n", max_length, en.c_str(), zh.c_str());
 		txtStream << std::left << std::setw(max_length) << en << "\t" << zh;
 		resPrint = highlightTxt(txtStream.str(), needHighlight);
-		std::cout << resPrint << '\n';
+		std::cout << count++  << " " << resPrint << '\n';
 	}
 	printf("-------------------------------------------------------------\n");
 }

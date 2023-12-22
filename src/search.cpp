@@ -51,6 +51,34 @@ std::vector<std::string> sortByWeight(std::vector<WordEntry> &res) {
 	return res_print;
 }
 
+/// @return 如果需要复制，则返回 id，否则返回 -1
+int askForCopy() {
+	std::cout << "是否需要复制到剪切板, 输入号码复制，空白跳过" << '\n';
+	std::string input_id;
+	std::getline(std::cin, input_id);
+	int idx = -1;
+	if (input_id.empty()) {
+		return idx;
+	}
+	// 验证输入是否全为数字
+	for (char c : input_id) {
+		if (!std::isdigit(c)) {
+			std::cout << "输入非法，必须是数字。" << '\n';
+			return -1;
+		}
+	}
+	try {
+		idx = std::stoi(input_id);
+	} catch (const std::exception& e) {
+		std::cout << "输入转换错误: " << e.what() << '\n';
+		return -1;
+	}
+	if (idx < 0 ||  idx >= CANDIDATES_NUMBER) {
+		return -1;
+	}
+	return idx;
+}
+
 void processEnglishInput(Trie *trie, const std::string &searchWord) {
 	std::string key = CASE_SENSITIVE ? searchWord : utils::to_lowers(searchWord);
 	std::vector<std::string> res = trie->fuzzySearch(key);
@@ -62,6 +90,10 @@ void processEnglishInput(Trie *trie, const std::string &searchWord) {
 	}
 	utils::printDictionary(res);
 	utils::loggerSearch(res, searchWord);
+	int id = askForCopy();
+	if (id != -1) {
+		utils::copyToClipboard(res[id]);
+	}
 }
 
 void processChineseInput(const std::string &searchWord) {
@@ -82,6 +114,10 @@ void processChineseInput(const std::string &searchWord) {
 	std::vector<std::string> resPrint = sortByWeight(res);
 	utils::highlightPrintDictionary(resPrint, searchWord);
 	utils::loggerSearch(resPrint, searchWord);
+	int id = askForCopy();
+	if (id != -1) {
+		utils::copyToClipboard(resPrint[id]);
+	}
 }
 
 void processInput(Trie *trie, const std::string &searchWord) {
