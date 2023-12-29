@@ -2,6 +2,14 @@
 
 这是一个基于终端的简易翻译工具。
 
+![en to zh](img/en2zh.png)
+
+![zh to en](img/zh2en.png)
+
+![en-multi-search](img/en-multi-search.png)
+
+![zh-multi-search](img/zh-multi-search.png)
+
 ## 功能
 
 - 翻译(中英)
